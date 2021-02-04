@@ -53,4 +53,14 @@ header {
   height: 100vh;
 }
 
+.Sun {
+  width: 60%;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 /*# sourceMappingURL=/App.7aaa0588.css.map */

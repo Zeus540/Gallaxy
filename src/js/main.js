@@ -1,2 +1,1 @@
 import './reveal'
-import './movetosun'

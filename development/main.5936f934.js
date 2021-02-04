@@ -7218,24 +7218,11 @@ var deck = new _reveal.default({
 });
 console.log("hello");
 deck.initialize();
-},{"reveal.js":"../node_modules/reveal.js/dist/reveal.esm.js","reveal.js/plugin/markdown/markdown.esm":"../node_modules/reveal.js/plugin/markdown/markdown.esm.js"}],"../src/js/movetosun.js":[function(require,module,exports) {
-var Sun = document.getElementsByClassName('Sun');
-alignToTop = true;
-
-function centerSolarSystem() {
-  Sun[0].scrollIntoView(alignToTop);
-  console.log('scroll');
-}
-
-centerSolarSystem();
-setInterval(centerSolarSystem, 100);
-},{}],"../src/js/main.js":[function(require,module,exports) {
+},{"reveal.js":"../node_modules/reveal.js/dist/reveal.esm.js","reveal.js/plugin/markdown/markdown.esm":"../node_modules/reveal.js/plugin/markdown/markdown.esm.js"}],"../src/js/main.js":[function(require,module,exports) {
 "use strict";
 
 require("./reveal");
-
-require("./movetosun");
-},{"./reveal":"../src/js/reveal.js","./movetosun":"../src/js/movetosun.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./reveal":"../src/js/reveal.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
