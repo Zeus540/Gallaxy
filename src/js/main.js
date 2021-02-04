@@ -1,1 +1,1 @@
-import './reveal'
+import './scrollto'

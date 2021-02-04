@@ -46,8 +46,84 @@ header {
 	
 }
 
-.Sun{
-	width: 60%;
+
+
+.Galaxy{
+	min-height: 100%;
+	min-width: 100%;
+
+}
+
+.Row1{
+	div:nth-child(1){
+		border: 2px white solid;
+		min-height: 100vh;
+		min-width: 100vw;
+	}
+	div:nth-child(2){
+		border: 2px white solid;
+		min-height: 100vh;
+		min-width: 100vw;
+	}
+	div:nth-child(3){
+		border: 2px white solid;
+		min-height: 100vh;
+		min-width: 100vw;
+	}
+}
+.Row2{
+	div:nth-child(1){
+		border: 2px white solid;
+		min-height: 100vh;
+		min-width: 100vw;
+		position: relative;
+		img{
+			position: absolute;
+			top: 35%;
+			right: 10%;
+			width: 15%;
+		}
+	}
+	div:nth-child(2){
+		border: 2px white solid;
+		min-height: 100vh;
+		min-width: 100vw;
+		position: relative;
+		img{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+			width: 35%;
+		}
+	}
+	div:nth-child(3){
+		border: 2px white solid;
+		min-height: 100vh;
+		min-width: 100vw;
+	}
+}
+
+.Row3{
+	div:nth-child(1){
+		border: 2px white solid;
+		min-height: 100vh;
+		min-width: 100vw;
+	}
+	div:nth-child(2){
+		border: 2px white solid;
+		min-height: 100vh;
+		min-width: 100vw;
+		.Sun{
+			position: absolute;
+			width: 100%;
+		}
+	}
+	div:nth-child(3){
+		border: 2px white solid;
+		min-height: 100vh;
+		min-width: 100vw;
+	}
 }
 .flex{
 	display: flex;

@@ -53,8 +53,78 @@ header {
   height: 100vh;
 }
 
-.Sun {
-  width: 60%;
+.Galaxy {
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.Row1 div:nth-child(1) {
+  border: 2px white solid;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+.Row1 div:nth-child(2) {
+  border: 2px white solid;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+.Row1 div:nth-child(3) {
+  border: 2px white solid;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.Row2 div:nth-child(1) {
+  border: 2px white solid;
+  min-height: 100vh;
+  min-width: 100vw;
+  position: relative;
+}
+.Row2 div:nth-child(1) img {
+  position: absolute;
+  top: 35%;
+  right: 10%;
+  width: 15%;
+}
+.Row2 div:nth-child(2) {
+  border: 2px white solid;
+  min-height: 100vh;
+  min-width: 100vw;
+  position: relative;
+}
+.Row2 div:nth-child(2) img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 35%;
+}
+.Row2 div:nth-child(3) {
+  border: 2px white solid;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.Row3 div:nth-child(1) {
+  border: 2px white solid;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+.Row3 div:nth-child(2) {
+  border: 2px white solid;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+.Row3 div:nth-child(2) .Sun {
+  position: absolute;
+  width: 100%;
+}
+.Row3 div:nth-child(3) {
+  border: 2px white solid;
+  min-height: 100vh;
+  min-width: 100vw;
 }
 
 .flex {
