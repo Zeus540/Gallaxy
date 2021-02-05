@@ -79,8 +79,9 @@ header {
 		position: relative;
 		img{
 			position: absolute;
-			top: 35%;
-			right: 10%;
+			top: 50%;
+			left: 50%;
+			transform: translate(50%,-50%);
 			width: 15%;
 		}
 	}
@@ -94,7 +95,10 @@ header {
 			top: 50%;
 			left: 50%;
 			transform: translate(-50%,-50%);
-			width: 35%;
+			width: calc(100% - 60%);
+			@media (min-width:1px) and (max-width:425px) {
+				width: calc(100% - 10%);
+			}
 		}
 	}
 	div:nth-child(3){
@@ -114,10 +118,7 @@ header {
 		border: 2px white solid;
 		min-height: 100vh;
 		min-width: 100vw;
-		.Sun{
-			position: absolute;
-			width: 100%;
-		}
+	
 	}
 	div:nth-child(3){
 		border: 2px white solid;
