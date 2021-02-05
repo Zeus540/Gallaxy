@@ -4,39 +4,42 @@
  //Navigation//
  var N = document.getElementById('N');
  var NW = document.getElementById('NW');
- var Down = document.getElementById('down');
- var Left = document.getElementById('left');
- var Right = document.getElementById('right');
+ var S = document.getElementById('S');
+ var W = document.getElementById('W');
+ var E = document.getElementById('E');
 
+ var Row3m = document.getElementById('Row3m');
+ 
 function Scroll(){
     alignToTop = true;
-    document.body.style.overflow = 'hidden';
+  
+
     Sun.scrollIntoView(alignToTop);
     console.log('scrolled');
     
     N.onclick = () =>{
-        Row1m.scrollIntoView(alignToTop);
+        Row1m.scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
         console.log('scrolled to Row1m')
     }
 
     NW.onclick = () =>{
-        Row1l.scrollIntoView(alignToTop);
+        Row1l.scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
         console.log('scrolled to Row1m')
     }
      
-    Down.onclick = () =>{
-        Row3m.scrollIntoView(alignToTop);
+    S.onclick = () =>{
+        Row3m.scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
         console.log('scrolled to Row3m')
     }
 
-    Left.onclick = () =>{
-        Row2l.scrollIntoView(alignToTop);
+    W.onclick = () =>{
+        Row2l.scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
         console.log('scrolled to Row2l')
     }
 
     
-    Right.onclick = () =>{
-        Row2r.scrollIntoView(alignToTop);
+    E.onclick = () =>{
+        Row2r.scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
         console.log('scrolled to Row2r')
     }
    

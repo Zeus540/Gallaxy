@@ -117,7 +117,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   }
 
   return newRequire;
-})({"../src/components/Welcome.js":[function(require,module,exports) {
+})({"../src/components/Nav.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -126,7 +126,22 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 
 var Welcome = function Welcome() {
-  var template = "\n  \n  <div class=\"Galaxy\">\n  \n      <div class=\"Row1 flex\">\n\n          <div class=\"\"id=\"Row1l\">\n\n          </div>\n\n          <div class=\"\" id=\"Row1m\">\n\n          </div>\n\n          <div class=\"\" id=\"Row1r\">\n\n          </div>\n\n    </div>\n\n    <div class=\"Row2 flex\">\n\n          <div class=\"\" id=\"Row2l\">\n            <img src=\"https://images-na.ssl-images-amazon.com/images/I/81wYqi3iLdL.png\" width=\"100%\"></img>\n          </div>\n\n          <div id=\"Sun\">\n           <div class=\"flex spaced Unset\">\n           <p id=\"NW\">NW</p>\n           <p id=\"N\">N</p>\n           <p id=\"NE\">NE</p>\n           </div>\n\n\n          \n            <p id=\"left\" class=\"left\">W</p>\n           \n            <img src=\"https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/25d45014-8cc3-4c98-b02c-5a0cf3a55ddd/dbwrfyf-3ad67c12-bf02-4231-bed9-fbb6f2b00ba5.png/v1/fill/w_894,h_894,q_75,strp/sun_on_a_transparent_background__by_prussiaart-dbwrfyf.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl0sIm9iaiI6W1t7InBhdGgiOiIvZi8yNWQ0NTAxNC04Y2MzLTRjOTgtYjAyYy01YTBjZjNhNTVkZGQvZGJ3cmZ5Zi0zYWQ2N2MxMi1iZjAyLTQyMzEtYmVkOS1mYmI2ZjJiMDBiYTUucG5nIiwid2lkdGgiOiI8PTg5NCIsImhlaWdodCI6Ijw9ODk0In1dXX0.R5N355geNJJte8P6q8lqrMbkTYfk56fmL4Bs6YndPqY\" width=\"100%\"></img>\n\n            <p id=\"right\" class=\"right\">E</p>\n          \n            <div class=\"flex spaced bottom\">\n            <p id=\"SW\">SW</p>\n            <p id=\"S\">S</p>\n            <p id=\"SE\">SE</p>\n            </div>\n\n          </div>\n\n         \n\n          <div class=\"\" id=\"Row2r\">\n\n          </div>\n\n    </div>\n\n    <div class=\"Row3 flex\">\n\n          <div class=\"\">\n\n          </div>\n\n          <div class=\"\" id=\"Row3m\">\n\n          </div>\n\n          <div class=\"\">\n\n          </div>\n\n    </div>\n\n  </div>\n  ";
+  var template = "\n    \n\n      <div class=\"Nav flex\">\n  \n  \n             <div class=\"flex spaced Unset top\">\n             <p id=\"NW\">NW</p>\n             <p id=\"N\">N</p>\n             <p id=\"NE\">NE</p>\n             </div>\n  \n  \n             <div class=\"flex spaced Unset middle\">\n  \n              <p id=\"W\" class=\"W\">W</p>\n             \n              <p id=\"E\" class=\"E\">E</p>\n  \n              </div>\n  \n              <div class=\"flex spaced bottom Unset\">\n              <p id=\"SW\">SW</p>\n              <p id=\"S\">S</p>\n              <p id=\"SE\">SE</p>\n              </div>\n  \n            </div>\n  \n  \n      </div>\n  \n\n   \n    ";
+  return template;
+};
+
+var _default = Welcome;
+exports.default = _default;
+},{}],"../src/components/Welcome.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var Welcome = function Welcome() {
+  var template = "\n  \n  <div class=\"Galaxy\">\n  \n      <div class=\"Row1 flex\">\n\n          <div class=\"\"id=\"Row1l\">\n\n          </div>\n\n          <div class=\"\" id=\"Row1m\">\n\n          </div>\n\n          <div class=\"\" id=\"Row1r\">\n\n          </div>\n\n    </div>\n\n    <div class=\"Row2 flex\">\n\n          <div class=\"\" id=\"Row2l\">\n      \n          </div>\n\n          <div id=\"Sun\" class=\"flex spaced middle column\">\n            <div class=\"flex spaced Unset top\">\n            <p id=\"NW\">NW</p>\n            <p id=\"N\" class=\"mainNav\">N</p>\n            <p id=\"NE\">NE</p>\n            </div>\n\n\n\n            <div class=\"flex spaced Unset middle\">\n  \n            <p id=\"W\" class=\"W mainNav\">W</p>\n           \n            <img class=\"Sun \" src=\"https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/25d45014-8cc3-4c98-b02c-5a0cf3a55ddd/dbwrfyf-3ad67c12-bf02-4231-bed9-fbb6f2b00ba5.png/v1/fill/w_894,h_894,q_75,strp/sun_on_a_transparent_background__by_prussiaart-dbwrfyf.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl0sIm9iaiI6W1t7InBhdGgiOiIvZi8yNWQ0NTAxNC04Y2MzLTRjOTgtYjAyYy01YTBjZjNhNTVkZGQvZGJ3cmZ5Zi0zYWQ2N2MxMi1iZjAyLTQyMzEtYmVkOS1mYmI2ZjJiMDBiYTUucG5nIiwid2lkdGgiOiI8PTg5NCIsImhlaWdodCI6Ijw9ODk0In1dXX0.R5N355geNJJte8P6q8lqrMbkTYfk56fmL4Bs6YndPqY\" width=\"100%\"></img>\n\n            <p id=\"E\" class=\"E mainNav\">E</p>\n\n            </div>\n\n            <div class=\"flex spaced bottom Unset\">\n            <p id=\"SW\">SW</p>\n            <p id=\"S\" class=\"mainNav\">S</p>\n            <p id=\"SE\">SE</p>\n            </div>\n\n          </div>\n\n         \n\n          <div class=\"\" id=\"Row2r\">\n\n          </div>\n\n    </div>\n\n    <div class=\"Row3 flex\">\n\n          <div class=\"\">\n\n          </div>\n\n          <div class=\"\" id=\"Row3m\">\n\n          </div>\n\n          <div class=\"\">\n\n          </div>\n\n    </div>\n\n  </div>\n  ";
   return template;
 };
 
@@ -207,6 +222,8 @@ module.hot.accept(reloadCSS);
 },{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../src/App.js":[function(require,module,exports) {
 "use strict";
 
+var _Nav = _interopRequireDefault(require("./components/Nav"));
+
 var _Welcome = _interopRequireDefault(require("./components/Welcome"));
 
 require("./scss/app.scss");
@@ -214,11 +231,11 @@ require("./scss/app.scss");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var App = function App() {
-  document.getElementById("root").innerHTML = "\n  ".concat((0, _Welcome.default)(), "\n\n  ");
+  document.getElementById("root").innerHTML = "\n\n  ".concat((0, _Welcome.default)(), "\n\n  ");
 };
 
 App();
-},{"./components/Welcome":"../src/components/Welcome.js","./scss/app.scss":"../src/scss/app.scss"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./components/Nav":"../src/components/Nav.js","./components/Welcome":"../src/components/Welcome.js","./scss/app.scss":"../src/scss/app.scss"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -246,7 +263,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "33885" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "37667" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
