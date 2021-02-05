@@ -73,7 +73,7 @@ header {
 }
 .Row2{
 	div:nth-child(1){
-		border: 2px white solid;
+	
 		min-height: 100vh;
 		min-width: 100vw;
 		position: relative;
@@ -86,7 +86,7 @@ header {
 		}
 	}
 	div:nth-child(2){
-		border: 2px white solid;
+	
 		min-height: 100vh;
 		min-width: 100vw;
 		position: relative;
@@ -100,9 +100,21 @@ header {
 				width: calc(100% - 10%);
 			}
 		}
+		p{
+			font-size: 2vw;
+			padding: 2vw;
+			@media (min-width:1px) and (max-width:425px) {
+				font-size: 4vw;
+			padding: 10vw;
+			}
+			@media (min-width:426px) and (max-width:768px) {
+				font-size: 3vw;
+			padding: 6vw;
+			}
+		}
 	}
 	div:nth-child(3){
-		border: 2px white solid;
+		
 		min-height: 100vh;
 		min-width: 100vw;
 	}
@@ -128,4 +140,29 @@ header {
 }
 .flex{
 	display: flex;
+	.spaced{
+		justify-content: space-between;
+	}
+}
+.Unset{
+	min-height: unset!important;
+}
+.bottom{
+	position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.left{
+	position: absolute;
+    top: 41%;
+    z-index: 2;
+    left: -26px;
+}
+
+.right{
+	position: absolute;
+    top: 41%;
+    z-index: 2;
+    right: -26px;
 }
