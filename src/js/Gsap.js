@@ -1,3 +1,4 @@
 import { gsap } from "gsap";
 
-gsap.to("#Text", {duration: 1, x: 100,y: -100});
+gsap.from(".Su", {duration: 2, x: -1000,y: 0});
+gsap.to(".Su", {duration: 2, x: 100,y: 0});

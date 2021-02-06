@@ -1,4 +1,4 @@
-import './scrollto'
+import './parralax'
 import './Gsap'
 
 

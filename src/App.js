@@ -1,14 +1,14 @@
-import Nav from './components/Nav'
-import Welcome from './components/Welcome'
+import Section1 from './components/Section1'
+import Section2 from './components/Section2'
 
 import './scss/app.scss'
 
 
 const App = () =>{
   document.getElementById("root").innerHTML = `
-
-  ${Welcome()}
-
+ 
+  ${Section2()}
+  ${Section1()}
   `;
 }
 

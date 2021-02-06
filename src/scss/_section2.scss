@@ -1,0 +1,66 @@
+.Section2{
+  height: 100vh;
+  overflow: hidden;
+  position: relative!important;
+background: red;
+}
+
+.Sun{
+  width: 500px;
+  height: 500px;
+  position: relative;
+  left: 20vw;
+  top: 20vh;
+  z-index: 1;
+ 
+  @media(min-width:1px) and (max-width:425px){
+    width: 250px;
+    height: 250px;
+   }
+}
+
+.fore {
+  right: -50px !important;
+  bottom: -200px !important;
+  top: 0px !important;
+  left: unset !important;
+
+}
+
+.Foreground{
+  height: 120vh;
+  z-index: 3;
+  filter: drop-shadow(6px 6px 11px black);
+
+  @media(min-width:1px) and (max-width:425px){
+    height: 125vh;
+   }
+
+}
+.bg  {
+  width: 130vw;
+  height: 110vh;
+ 
+  left: -2vw  !important;
+  top: -1vw !important;
+}
+.bg img {
+  width: 130vw;
+  height: 110vh;
+  left: 340vw ;
+  filter: brightness(0.5);
+}
+
+.HeadingCenter{
+  left: 50% !important;
+  top: 50% !important;
+  position: absolute;
+  transform: translate(-50% ,-50%);
+  font-size: 2vw;
+  h1{
+    filter: drop-shadow(26px 36px 11px black);
+ @media(min-width:1px) and (max-width:425px){
+  font-size: 8vw;
+ }
+  }
+}

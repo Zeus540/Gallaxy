@@ -117,7 +117,9 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   }
 
   return newRequire;
-})({"../src/components/Nav.js":[function(require,module,exports) {
+})({"../src/assets/images/video.mp4":[function(require,module,exports) {
+module.exports = "/video.90518e75.mp4";
+},{}],"../src/components/Section1.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -125,14 +127,26 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 
-var Welcome = function Welcome() {
-  var template = "\n    \n\n      <div class=\"Nav flex\">\n  \n  \n             <div class=\"flex spaced Unset top\">\n             <p id=\"NW\">NW</p>\n             <p id=\"N\">N</p>\n             <p id=\"NE\">NE</p>\n             </div>\n  \n  \n             <div class=\"flex spaced Unset middle\">\n  \n              <p id=\"W\" class=\"W\">W</p>\n             \n              <p id=\"E\" class=\"E\">E</p>\n  \n              </div>\n  \n              <div class=\"flex spaced bottom Unset\">\n              <p id=\"SW\">SW</p>\n              <p id=\"S\">S</p>\n              <p id=\"SE\">SE</p>\n              </div>\n  \n            </div>\n  \n  \n      </div>\n  \n\n   \n    ";
+var _video = _interopRequireDefault(require("../assets/images/video.mp4"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Section1 = function Section1() {
+  var template = "\n  \n  <div class=\"Section1\">\n  <div class=\" Overlay\">\n\n  <div class=\"Section1Heading\" id=\"Text\">\n  <h1>JOURNEY TO THE MOON</h1>\n  <h1>FEEL THE HEAT</h1>\n  </div>\n  </div>\n \n  </div>\n  ";
   return template;
 };
 
-var _default = Welcome;
+var _default = Section1;
 exports.default = _default;
-},{}],"../src/components/Welcome.js":[function(require,module,exports) {
+},{"../assets/images/video.mp4":"../src/assets/images/video.mp4"}],"../src/assets/images/Sun.png":[function(require,module,exports) {
+module.exports = "/Sun.a4c685ab.png";
+},{}],"../src/assets/images/fore.png":[function(require,module,exports) {
+module.exports = "/fore.180ba052.png";
+},{}],"../src/assets/images/2399.jpg":[function(require,module,exports) {
+module.exports = "/2399.04111042.jpg";
+},{}],"../src/assets/images/Mist.png":[function(require,module,exports) {
+module.exports = "/Mist.877145c4.png";
+},{}],"../src/components/Section2.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -140,14 +154,24 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 
-var Welcome = function Welcome() {
-  var template = "\n  \n  <div class=\"Galaxy\">\n  \n      <div class=\"Row1 flex\">\n\n          <div class=\"\"id=\"Row1l\">\n\n          </div>\n\n          <div class=\"\" id=\"Row1m\">\n\n          </div>\n\n          <div class=\"\" id=\"Row1r\">\n\n          </div>\n\n    </div>\n\n    <div class=\"Row2 flex\">\n\n          <div class=\"\" id=\"Row2l\">\n      \n          </div>\n\n          <div id=\"Sun\" class=\"flex spaced middle column\">\n            <div class=\"flex spaced Unset top\">\n            <p id=\"NW\">NW</p>\n            <p id=\"N\" class=\"mainNav\">N</p>\n            <p id=\"NE\">NE</p>\n            </div>\n\n\n\n            <div class=\"flex spaced Unset middle\">\n  \n            <p id=\"W\" class=\"W mainNav\">W</p>\n           \n            <img class=\"Sun \" src=\"https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/25d45014-8cc3-4c98-b02c-5a0cf3a55ddd/dbwrfyf-3ad67c12-bf02-4231-bed9-fbb6f2b00ba5.png/v1/fill/w_894,h_894,q_75,strp/sun_on_a_transparent_background__by_prussiaart-dbwrfyf.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl0sIm9iaiI6W1t7InBhdGgiOiIvZi8yNWQ0NTAxNC04Y2MzLTRjOTgtYjAyYy01YTBjZjNhNTVkZGQvZGJ3cmZ5Zi0zYWQ2N2MxMi1iZjAyLTQyMzEtYmVkOS1mYmI2ZjJiMDBiYTUucG5nIiwid2lkdGgiOiI8PTg5NCIsImhlaWdodCI6Ijw9ODk0In1dXX0.R5N355geNJJte8P6q8lqrMbkTYfk56fmL4Bs6YndPqY\" width=\"100%\"></img>\n\n            <p id=\"E\" class=\"E mainNav\">E</p>\n\n            </div>\n\n            <div class=\"flex spaced bottom Unset\">\n            <p id=\"SW\">SW</p>\n            <p id=\"S\" class=\"mainNav\">S</p>\n            <p id=\"SE\">SE</p>\n            </div>\n\n          </div>\n\n         \n\n          <div class=\"\" id=\"Row2r\">\n\n          </div>\n\n    </div>\n\n    <div class=\"Row3 flex\">\n\n          <div class=\"\">\n\n          </div>\n\n          <div class=\"\" id=\"Row3m\">\n\n          </div>\n\n          <div class=\"\">\n\n          </div>\n\n    </div>\n\n  </div>\n  ";
+var _Sun = _interopRequireDefault(require("../assets/images/Sun.png"));
+
+var _fore = _interopRequireDefault(require("../assets/images/fore.png"));
+
+var _ = _interopRequireDefault(require("../assets/images/2399.jpg"));
+
+var _Mist = _interopRequireDefault(require("../assets/images/Mist.png"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Section2 = function Section2() {
+  var template = "\n    \n\n      <div class=\"Section2\">\n     \n      <div id=\"scene\">\n\n      <div data-depth=\"0.1\" class=\"bg\">\n        <img src=".concat(_.default, " alt=\"\" />\n      </div>\n\n      <div data-depth=\"1.2\"  class=\"earth\">\n        <img src=").concat(_Sun.default, " alt=\"\" class=\"Sun\"/>\n     \n      </div>\n\n      <div data-depth=\"0.2\" class=\"fore\">\n        <img src=").concat(_fore.default, " alt=\"\"  class=\"Foreground\"/>\n      </div>\n     \n      \n      </div>\n      <div class=\"HeadingCenter\">\n      <h1>JOURNEY INTO SPACE</h1>\n    </div>\n  \n      </div>\n  \n\n   \n    ");
   return template;
 };
 
-var _default = Welcome;
+var _default = Section2;
 exports.default = _default;
-},{}],"../node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
+},{"../assets/images/Sun.png":"../src/assets/images/Sun.png","../assets/images/fore.png":"../src/assets/images/fore.png","../assets/images/2399.jpg":"../src/assets/images/2399.jpg","../assets/images/Mist.png":"../src/assets/images/Mist.png"}],"../node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
 var bundleURL = null;
 
 function getBundleURLCached() {
@@ -222,20 +246,20 @@ module.hot.accept(reloadCSS);
 },{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../src/App.js":[function(require,module,exports) {
 "use strict";
 
-var _Nav = _interopRequireDefault(require("./components/Nav"));
+var _Section = _interopRequireDefault(require("./components/Section1"));
 
-var _Welcome = _interopRequireDefault(require("./components/Welcome"));
+var _Section2 = _interopRequireDefault(require("./components/Section2"));
 
 require("./scss/app.scss");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var App = function App() {
-  document.getElementById("root").innerHTML = "\n\n  ".concat((0, _Welcome.default)(), "\n\n  ");
+  document.getElementById("root").innerHTML = "\n \n  ".concat((0, _Section2.default)(), "\n  ").concat((0, _Section.default)(), "\n  ");
 };
 
 App();
-},{"./components/Nav":"../src/components/Nav.js","./components/Welcome":"../src/components/Welcome.js","./scss/app.scss":"../src/scss/app.scss"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./components/Section1":"../src/components/Section1.js","./components/Section2":"../src/components/Section2.js","./scss/app.scss":"../src/scss/app.scss"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -263,7 +287,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "37667" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "33779" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
