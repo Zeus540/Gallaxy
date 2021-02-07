@@ -6951,16 +6951,16 @@ exports.default = exports.gsap = gsapWithCSS;
 
 var _gsap = require("gsap");
 
-_gsap.gsap.from(".Su", {
-  duration: 2,
+_gsap.gsap.from(".earth", {
+  duration: 5,
   x: -1000,
-  y: 0
+  y: -1000
 });
 
-_gsap.gsap.to(".Su", {
-  duration: 2,
-  x: 100,
-  y: 0
+_gsap.gsap.to(".earth", {
+  duration: 5,
+  x: 1000,
+  y: 1000
 });
 },{"gsap":"../node_modules/gsap/index.js"}],"../src/js/main.js":[function(require,module,exports) {
 "use strict";
@@ -6996,7 +6996,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "33779" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "40429" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

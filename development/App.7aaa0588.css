@@ -1,10 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 .Section1 {
   min-width: 100%;
   height: 100%;
-  overflow: hidden;
+  position: relative;
 }
 .Section1 .Overlay {
-  background: rgba(2,0,0,0.45098);
+  background: #090411;
   position: relative;
   height: 100%;
   width: 100%;
@@ -27,60 +28,103 @@
   z-index: 1;
 }
 
+.Section1:before {
+  content: " ";
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#090411), to(transparent));
+  background-image: -o-linear-gradient(bottom, #090411, transparent);
+  background-image: linear-gradient(to top, #090411, transparent);
+  position: absolute !important;
+  z-index: 5555555;
+  width: 100vw;
+  top: -49px;
+  height: 50px;
+}
+
 .Section2 {
   height: 100vh;
   overflow: hidden;
   position: relative !important;
-  background: red;
 }
 
 .Sun {
-  width: 500px;
-  height: 500px;
+  width: 45%;
+  height: 100%;
   position: relative;
-  left: 20vw;
+  left: 15vw;
   top: 20vh;
   z-index: 1;
+  -webkit-filter: brightness(0.9);
+          filter: brightness(0.9);
 }
 @media (min-width: 1px) and (max-width: 425px) {
   .Sun {
-    width: 250px;
-    height: 250px;
+    width: 45%;
+    height: 100%;
   }
 }
 
 .fore {
-  right: -50px !important;
-  bottom: -200px !important;
-  top: 0px !important;
-  left: unset !important;
+  left: -50px !important;
+  top: 350px !important;
+}
+@media (min-width: 1px) and (max-width: 425px) {
+  .fore {
+    top: 0px !important;
+    left: -5px !important;
+    height: 100vh;
+  }
 }
 
 .Foreground {
-  height: 120vh;
+  height: 70vh;
+  width: 105vw;
   z-index: 3;
-  -webkit-filter: drop-shadow(6px 6px 11px black);
-          filter: drop-shadow(6px 6px 11px black);
+  -webkit-filter: brightness(0.5);
+          filter: brightness(0.5);
 }
 @media (min-width: 1px) and (max-width: 425px) {
   .Foreground {
+    height: 40vh;
+    position: absolute;
+    bottom: 0px;
+  }
+}
+
+.fore1 {
+  left: -160px !important;
+  top: -50px !important;
+}
+@media (min-width: 1px) and (max-width: 425px) {
+  .fore1 {
+    top: 0px !important;
+    left: -100px !important;
+    height: 100vh;
+  }
+}
+
+.Foreground1 {
+  height: 110vh;
+  width: 40vw;
+  z-index: 3;
+  -webkit-filter: brightness(0.5);
+          filter: brightness(0.5);
+}
+@media (min-width: 1px) and (max-width: 425px) {
+  .Foreground1 {
     height: 125vh;
+    width: 100vw;
   }
 }
 
 .bg {
-  width: 130vw;
-  height: 110vh;
   left: -2vw !important;
-  top: -1vw !important;
 }
 
 .bg img {
-  width: 130vw;
-  height: 110vh;
-  left: 340vw;
-  -webkit-filter: brightness(0.5);
-          filter: brightness(0.5);
+  width: 120vw;
+  height: 120vh;
+  -webkit-filter: brightness(0.7);
+          filter: brightness(0.7);
 }
 
 .HeadingCenter {
@@ -95,6 +139,8 @@
 .HeadingCenter h1 {
   -webkit-filter: drop-shadow(26px 36px 11px black);
           filter: drop-shadow(26px 36px 11px black);
+  font-family: "Press Start 2P", cursive;
+  letter-spacing: 7px;
 }
 @media (min-width: 1px) and (max-width: 425px) {
   .HeadingCenter h1 {
@@ -136,10 +182,11 @@ ul {
 
 ::-webkit-scrollbar {
   width: 13px;
+  background-color: #090411;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #b25037;
+  background-color: #121e50;
   height: 10px;
   border-radius: 20px;
 }

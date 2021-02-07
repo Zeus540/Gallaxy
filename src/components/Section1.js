@@ -1,4 +1,4 @@
-import Vid from '../assets/images/video.mp4';
+
 const Section1 = () => {
 
   const template = `
@@ -13,7 +13,7 @@ const Section1 = () => {
   </div>
  
   </div>
-  `;
+  `
 
 	return template;
 };

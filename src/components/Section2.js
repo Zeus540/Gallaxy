@@ -1,7 +1,8 @@
-import Img from '../assets/images/Sun.png'
-import Fore from '../assets/images/fore.png'
-import Bg from '../assets/images/2399.jpg'
-import Mist from '../assets/images/Mist.png'
+import Img from '../assets/images/snow.png'
+import Fore from '../assets/images/midright.png'
+import Fore1 from '../assets/images/foregroundleft.png'
+import Bg from '../assets/images/bg.png'
+import Mist from '../assets/images/stars2.png'
 
 const Section2 = () => {
 
@@ -16,19 +17,25 @@ const Section2 = () => {
         <img src=${Bg} alt="" />
       </div>
 
-      <div data-depth="1.2"  class="earth">
+  
+      <div  class="earth">
         <img src=${Img} alt="" class="Sun"/>
      
       </div>
 
-      <div data-depth="0.2" class="fore">
+     
+    
+      <div data-depth="0.1" class="fore">
         <img src=${Fore} alt=""  class="Foreground"/>
       </div>
-     
       
+      <div data-depth="0.1" class="fore1">
+      <img src=${Fore1} alt=""  class="Foreground1"/>
+    </div>
+     
       </div>
-      <div class="HeadingCenter">
-      <h1>JOURNEY INTO SPACE</h1>
+      <div class="HeadingCenter" >
+      <h1>SPACE</h1>
     </div>
   
       </div>
