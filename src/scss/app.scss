@@ -1,3 +1,4 @@
+@import '_nav';
 @import '_section1';
 @import '_section2';
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
@@ -8,6 +9,7 @@ $primary-color: #1f1f1f;
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+	cursor: none;
 }
 
 html {
@@ -27,12 +29,38 @@ body {
 
 }
 
-
+#scene{
+	max-height: 100% !important;
+}
 ul {
 	list-style: none;
 }
 
+.cursor{
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	border: 2px white solid;
+	transform: translate(-50% ,-50%);
+	border-radius: 50%;
+	z-index: 999999;
+	pointer-events: none;
+	@media(min-width:1px) and (max-width:786px){
+	display: none;
+	   }
+}
+.cursor::after{
+	content: ' ';
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	transform: translate(6.5px ,5.5px);
+	border: 2px white solid;
+	border-radius: 50%;
+	z-index: 99999;
+	pointer-events: none;
 
+}
 
 
 #root{

@@ -1,43 +1,161 @@
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+.Nav {
+  position: absolute;
+  z-index: 999;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.Nav h1 {
+  padding: 1vw;
+  font-weight: lighter;
+  font-size: 1.5vw;
+}
+@media (min-width: 1px) and (max-width: 425px) {
+  .Nav h1 {
+    font-size: 4vw;
+    padding: 5vw;
+  }
+}
+
 .Section1 {
   min-width: 100%;
-  height: 100%;
   position: relative;
-}
-.Section1 .Overlay {
-  background: #090411;
-  position: relative;
-  height: 100%;
-  width: 100%;
-  z-index: 2;
-}
-.Section1 .Overlay .Section1Heading {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  background: #04000c;
   text-align: center;
+  padding-top: 2vw;
 }
-.Section1 #myVideo {
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-  z-index: 1;
+@media (min-width: 1px) and (max-width: 425px) {
+  .Section1 {
+    padding-top: 16vw;
+  }
+  .Section1 h1 {
+    padding: 0px 41px;
+    font-size: 7.5vw;
+  }
+}
+.Section1 .SunS {
+  width: 55px;
+  height: 55px;
+  margin: 20px;
+}
+
+.Flex {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.FlexContent {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+@media (min-width: 1px) and (max-width: 425px) {
+  .FlexContent {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+}
+
+.MainImgHolder {
+  width: 50%;
+  margin: 20px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.MainImg {
+  width: 450px;
+  height: 450px;
+  margin: 0 auto;
+}
+@media (min-width: 1px) and (max-width: 425px) {
+  .MainImg {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.MainTextHolder1 {
+  width: 33%;
+  padding-left: 10vw;
+  padding-top: 5vw;
+  text-align: left;
+}
+.MainTextHolder1 p {
+  font-size: 1vw;
+  text-align: justify;
+}
+@media (min-width: 1px) and (max-width: 425px) {
+  .MainTextHolder1 {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 41px;
+  }
+  .MainTextHolder1 p {
+    font-size: 4.5vw;
+    text-align: justify;
+  }
+}
+
+.MainTextHolder2 {
+  width: 33%;
+  padding-right: 10vw;
+  padding-top: 5vw;
+  text-align: left;
+}
+.MainTextHolder2 p {
+  font-size: 1vw;
+  text-align: justify;
+}
+@media (min-width: 1px) and (max-width: 425px) {
+  .MainTextHolder2 {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 41px;
+  }
+  .MainTextHolder2 p {
+    font-size: 4.5vw;
+    text-align: justify;
+  }
 }
 
 .Section1:before {
   content: " ";
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#090411), to(transparent));
-  background-image: -o-linear-gradient(bottom, #090411, transparent);
-  background-image: linear-gradient(to top, #090411, transparent);
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#04000c), to(transparent));
+  background-image: -o-linear-gradient(bottom, #04000c, transparent);
+  background-image: linear-gradient(to top, #04000c, transparent);
   position: absolute !important;
-  z-index: 5555555;
+  z-index: 888;
   width: 100vw;
   top: -49px;
   height: 50px;
+  left: 0;
 }
 
 .Section2 {
@@ -50,8 +168,8 @@
   width: 45%;
   height: 100%;
   position: relative;
-  left: 15vw;
-  top: 20vh;
+  left: -25vw;
+  top: -20vh;
   z-index: 1;
   -webkit-filter: brightness(0.9);
           filter: brightness(0.9);
@@ -63,9 +181,25 @@
   }
 }
 
+.moon {
+  position: absolute;
+  left: 0;
+  bottom: 0vw !important;
+  top: unset !important;
+}
+.moon .moonrover {
+  width: 150px;
+}
+@media (min-width: 1px) and (max-width: 425px) {
+  .moon .moonrover {
+    width: 45px;
+    height: 100%;
+  }
+}
+
 .fore {
   left: -50px !important;
-  top: 350px !important;
+  top: 32vh !important;
 }
 @media (min-width: 1px) and (max-width: 425px) {
   .fore {
@@ -92,12 +226,12 @@
 
 .fore1 {
   left: -160px !important;
-  top: -50px !important;
+  top: -70px !important;
 }
 @media (min-width: 1px) and (max-width: 425px) {
   .fore1 {
-    top: 0px !important;
-    left: -100px !important;
+    top: -50px !important;
+    left: -55px !important;
     height: 100vh;
   }
 }
@@ -106,8 +240,8 @@
   height: 110vh;
   width: 40vw;
   z-index: 3;
-  -webkit-filter: brightness(0.5);
-          filter: brightness(0.5);
+  -webkit-filter: brightness(0.9);
+          filter: brightness(0.9);
 }
 @media (min-width: 1px) and (max-width: 425px) {
   .Foreground1 {
@@ -117,6 +251,7 @@
 }
 
 .bg {
+  top: -2vw !important;
   left: -2vw !important;
 }
 
@@ -153,6 +288,7 @@
           box-sizing: border-box;
   margin: 0;
   padding: 0;
+  cursor: none;
 }
 
 html {
@@ -171,8 +307,44 @@ body {
   overflow-x: hidden;
 }
 
+#scene {
+  max-height: 100% !important;
+}
+
 ul {
   list-style: none;
+}
+
+.cursor {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border: 2px white solid;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border-radius: 50%;
+  z-index: 999999;
+  pointer-events: none;
+}
+@media (min-width: 1px) and (max-width: 786px) {
+  .cursor {
+    display: none;
+  }
+}
+
+.cursor::after {
+  content: " ";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  -webkit-transform: translate(6.5px, 5.5px);
+      -ms-transform: translate(6.5px, 5.5px);
+          transform: translate(6.5px, 5.5px);
+  border: 2px white solid;
+  border-radius: 50%;
+  z-index: 99999;
+  pointer-events: none;
 }
 
 #root {

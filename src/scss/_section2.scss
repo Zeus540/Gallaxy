@@ -9,8 +9,8 @@
   width: 45%;
   height: 100%;
   position: relative;
-  left: 15vw;
-  top: 20vh;
+  left: -25vw;
+  top: -20vh;
   z-index: 1;
   filter:brightness(0.9);
   @media(min-width:1px) and (max-width:425px){
@@ -18,10 +18,22 @@
     height: 100%;
    }
 }
-
+.moon{
+  position: absolute;
+  left: 0 ;
+  bottom: 0vw !important;
+  top: unset !important;
+  .moonrover{
+  width: 150px;
+  @media(min-width:1px) and (max-width:425px){
+    width: 45px;
+    height: 100%;
+   }
+  }
+}
 .fore {
   left: -50px !important;
-  top: 350px !important;
+  top: 32vh!important;
   @media(min-width:1px) and (max-width:425px){
     top: 0px !important;
     left: -5px !important;
@@ -46,10 +58,10 @@
 
 .fore1 {
   left: -160px !important;
-  top: -50px !important;
+  top: -70px !important;
   @media(min-width:1px) and (max-width:425px){
-    top: 0px !important;
-    left: -100px !important;
+    top: -50px !important;
+    left: -55px !important;
     height: 100vh;
    }
 
@@ -59,7 +71,7 @@
   height: 110vh;
   width: 40vw;
   z-index: 3;
-  filter:brightness(0.5);
+  filter:brightness(0.9);
   @media(min-width:1px) and (max-width:425px){
     height: 125vh;
     width: 100vw;
@@ -67,7 +79,7 @@
 
 }
 .bg  {
- 
+  top: -2vw  !important;
   left: -2vw  !important;
 
 }
