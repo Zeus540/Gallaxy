@@ -9,7 +9,7 @@ const Nav = () => {
 
   
 
-    <h1>
+    <h1 id="down">
         LETS EXPLORE
     </h1>
 

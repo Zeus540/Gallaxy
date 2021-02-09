@@ -76,6 +76,10 @@
     height: 125vh;
     width: 100vw;
    }
+   @media(min-width:426px) and (max-width:768px){
+    height: 125vh;
+    width: 100vw;
+   }
 
 }
 .bg  {
@@ -89,7 +93,16 @@ width: 120vw;
 
   filter: brightness(0.7);
 }
-
+.Stars img {
+  width: 100vw;
+    height: 120vh;
+    filter: brightness(1);
+    @media(min-width:1px) and (max-width:425px){
+      height: 125vh;
+      width: 300vw;
+      filter: brightness(1);
+     }
+  }
 .HeadingCenter{
   left: 50% !important;
   top: 50% !important;
@@ -101,7 +114,10 @@ width: 120vw;
     font-family: 'Press Start 2P', cursive;
     letter-spacing: 7px;
  @media(min-width:1px) and (max-width:425px){
-  font-size: 8vw;
+  font-size: 14vw;
+ }
+ @media(min-width:426px) and (max-width:768px){
+  font-size: 5vw;
  }
   }
 }

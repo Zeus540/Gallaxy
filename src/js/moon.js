@@ -26,5 +26,5 @@ let tl = gsap.timeline({
 // add animations and labels to the timeline
 tl.addLabel("start")
   .from(".earth", {top:'0vh', left : '0vw'  })
-  .to(".earth", { top:'150vh', left : '140vw' })
+  .to(".earth", { top:'200vh', left : '160vw' })
   .addLabel("end")

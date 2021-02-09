@@ -1,7 +1,7 @@
 {
-  "name": "vanilla-boilerplate-with-parcel",
+  "name": "Space",
   "version": "1.0.0",
-  "description": "vanilla-boilerplate-with-parcel",
+  "description": "Space",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,7 +10,7 @@
     "clean": "rimraf ./development && rimraf ./.cache"
   },
   "keywords": [
-    "vanilla-boilerplate-with-parcel"
+    "Space gallaxy parcel babel"
   ],
   "author": "Zaheer Roberts",
   "license": "MIT",

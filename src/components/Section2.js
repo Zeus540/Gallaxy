@@ -18,7 +18,7 @@ const Section2 = () => {
         <img src=${Bg} alt="" />
       </div>
 
-      <div data-depth="0.2" class="bg">
+      <div data-depth="0.2" class="Stars">
         <img src=${Stars} alt="" />
       </div>
   

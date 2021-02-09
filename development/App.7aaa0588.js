@@ -136,7 +136,7 @@ var _earth = _interopRequireDefault(require("../assets/images/earth.png"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var Nav = function Nav() {
-  var template = "\n  \n  <div class=\"Nav \" id=\"Nav\">\n\n  \n\n    <h1>\n        LETS EXPLORE\n    </h1>\n\n  \n  </div>\n  ";
+  var template = "\n  \n  <div class=\"Nav \" id=\"Nav\">\n\n  \n\n    <h1 id=\"down\">\n        LETS EXPLORE\n    </h1>\n\n  \n  </div>\n  ";
   return template;
 };
 
@@ -196,7 +196,7 @@ var _stars = _interopRequireDefault(require("../assets/images/stars2.png"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var Section2 = function Section2() {
-  var template = "\n    \n\n      <div class=\"Section2\">\n     \n      <div id=\"scene\">\n\n      <div data-depth=\"0.1\" class=\"bg\">\n        <img src=".concat(_bg.default, " alt=\"\" />\n      </div>\n\n      <div data-depth=\"0.2\" class=\"bg\">\n        <img src=").concat(_stars.default, " alt=\"\" />\n      </div>\n  \n      <div data-depth=\"0.5\" class=\"earth\">\n        <img src=").concat(_snow.default, " alt=\"\" class=\"Sun\"/>\n      </div>\n\n    \n      <div data-depth=\"0.15\" class=\"fore\">\n        <img src=").concat(_midright.default, " alt=\"\"  class=\"Foreground\"/>\n      </div>\n\n      <div  class=\"moon\">\n        <img src=").concat(_moon.default, " alt=\"\" class=\"moonrover\"/>\n      </div>\n\n      <div data-depth=\"0.2\" class=\"fore1\">\n        <img src=").concat(_foregroundleft.default, " alt=\"\"  class=\"Foreground1\"/>\n      </div>\n\n    \n\n      </div>\n      <div class=\"HeadingCenter\" >\n        <h1>SPACE</h1>\n      </div>\n  \n      </div>\n  \n\n   \n    ");
+  var template = "\n    \n\n      <div class=\"Section2\">\n     \n      <div id=\"scene\">\n\n      <div data-depth=\"0.1\" class=\"bg\">\n        <img src=".concat(_bg.default, " alt=\"\" />\n      </div>\n\n      <div data-depth=\"0.2\" class=\"Stars\">\n        <img src=").concat(_stars.default, " alt=\"\" />\n      </div>\n  \n      <div data-depth=\"0.5\" class=\"earth\">\n        <img src=").concat(_snow.default, " alt=\"\" class=\"Sun\"/>\n      </div>\n\n    \n      <div data-depth=\"0.15\" class=\"fore\">\n        <img src=").concat(_midright.default, " alt=\"\"  class=\"Foreground\"/>\n      </div>\n\n      <div  class=\"moon\">\n        <img src=").concat(_moon.default, " alt=\"\" class=\"moonrover\"/>\n      </div>\n\n      <div data-depth=\"0.2\" class=\"fore1\">\n        <img src=").concat(_foregroundleft.default, " alt=\"\"  class=\"Foreground1\"/>\n      </div>\n\n    \n\n      </div>\n      <div class=\"HeadingCenter\" >\n        <h1>SPACE</h1>\n      </div>\n  \n      </div>\n  \n\n   \n    ");
   return template;
 };
 
@@ -320,7 +320,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "40429" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "45249" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

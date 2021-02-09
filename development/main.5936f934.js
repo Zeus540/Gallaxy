@@ -14147,8 +14147,8 @@ tl.addLabel("start").from(".earth", {
   top: '0vh',
   left: '0vw'
 }).to(".earth", {
-  top: '150vh',
-  left: '140vw'
+  top: '200vh',
+  left: '160vw'
 }).addLabel("end");
 },{"gsap":"../node_modules/gsap/index.js","gsap/Draggable":"../node_modules/gsap/Draggable.js","gsap/MotionPathPlugin":"../node_modules/gsap/MotionPathPlugin.js","gsap/TextPlugin":"../node_modules/gsap/TextPlugin.js","gsap/ScrollToPlugin":"../node_modules/gsap/ScrollToPlugin.js","gsap/ScrollTrigger":"../node_modules/gsap/ScrollTrigger.js"}],"../src/js/moonrover.js":[function(require,module,exports) {
 "use strict";
@@ -14217,8 +14217,11 @@ element[0].onclick = function () {
   element[8].style.transform = "scale(1)";
   Name.innerHTML = "\n    <h1 id=\"planetName\">Mars</h1>\n    ";
   MainImg.innerHTML = "\n    <img src=".concat(_snow.default, " alt=\"\" class=\"MainImg\"/>\n    ");
-  MainTextHolder1.innerHTML = "\n    <h1 id=\"planetName\">Snow</h1>\n    ";
-  MainTextHolder2.innerHTML = "\n    <h1 id=\"planetName\">Snow</h1>\n    ";
+  MainTextHolder1.innerHTML = "\n    <p>\n    Earth is the third planet from the Sun and the only astronomical object known to harbor life. About 29% of Earth's surface is land consisting of continents and islands. The remaining 71% is covered with water, mostly by oceans but also by lakes, rivers and other fresh water, which together constitute the hydrosphere. Much of Earth's polar regions are covered in ice. Earth's outer layer is divided into several rigid tectonic plates that migrate across the surface over many millions of years. Earth's interior remains active with a solid iron inner core, a liquid outer core that generates Earth's magnetic field, and a convecting mantle that drives plate tectonics.\n    </p>\n    ";
+  MainTextHolder2.innerHTML = "\n    <p>\n    Earth formed over 4.5 billion years ago. Within the first billion years of Earth's history, life appeared in the oceans and began to affect Earth's atmosphere and surface, leading to the proliferation of anaerobic and, later, aerobic organisms. \n    </p>\n    ";
+  Name.scrollIntoView({
+    behavior: "smooth"
+  });
   console.log(MainImg);
 };
 
@@ -14236,6 +14239,9 @@ element[1].onclick = function () {
   MainImg.innerHTML = "\n    <img src=".concat(_earth.default, " alt=\"\"  class=\"MainImg\"/>\n    ");
   MainTextHolder1.innerHTML = "\n    <p>\n    Earth is the third planet from the Sun and the only astronomical object known to harbor life. About 29% of Earth's surface is land consisting of continents and islands. The remaining 71% is covered with water, mostly by oceans but also by lakes, rivers and other fresh water, which together constitute the hydrosphere. Much of Earth's polar regions are covered in ice. Earth's outer layer is divided into several rigid tectonic plates that migrate across the surface over many millions of years. Earth's interior remains active with a solid iron inner core, a liquid outer core that generates Earth's magnetic field, and a convecting mantle that drives plate tectonics.\n    </p>\n    ";
   MainTextHolder2.innerHTML = "\n    <p>\nEarth formed over 4.5 billion years ago. Within the first billion years of Earth's history, life appeared in the oceans and began to affect Earth's atmosphere and surface, leading to the proliferation of anaerobic and, later, aerobic organisms. \n    </p>\n    ";
+  Name.scrollIntoView({
+    behavior: "smooth"
+  });
   console.log(MainImg);
 };
 
@@ -14253,6 +14259,9 @@ element[2].onclick = function () {
   MainImg.innerHTML = "\n<img src=".concat(_earth.default, " alt=\"\" class=\"MainImg\"/>\n");
   MainTextHolder1.innerHTML = "\n<p>\nEarth is the third planet from the Sun and the only astronomical object known to harbor life. About 29% of Earth's surface is land consisting of continents and islands. The remaining 71% is covered with water, mostly by oceans but also by lakes, rivers and other fresh water, which together constitute the hydrosphere. Much of Earth's polar regions are covered in ice. Earth's outer layer is divided into several rigid tectonic plates that migrate across the surface over many millions of years. Earth's interior remains active with a solid iron inner core, a liquid outer core that generates Earth's magnetic field, and a convecting mantle that drives plate tectonics.\n</p>\n";
   MainTextHolder2.innerHTML = "\n<p>\nEarth formed over 4.5 billion years ago. Within the first billion years of Earth's history, life appeared in the oceans and began to affect Earth's atmosphere and surface, leading to the proliferation of anaerobic and, later, aerobic organisms. \n</p>\n";
+  Name.scrollIntoView({
+    behavior: "smooth"
+  });
   console.log(MainImg);
 };
 
@@ -14270,6 +14279,9 @@ element[3].onclick = function () {
   MainImg.innerHTML = "\n<img src=".concat(_earth.default, "  alt=\"\" class=\"MainImg\"/>\n");
   MainTextHolder1.innerHTML = "\n<p>\nEarth is the third planet from the Sun and the only astronomical object known to harbor life. About 29% of Earth's surface is land consisting of continents and islands. The remaining 71% is covered with water, mostly by oceans but also by lakes, rivers and other fresh water, which together constitute the hydrosphere. Much of Earth's polar regions are covered in ice. Earth's outer layer is divided into several rigid tectonic plates that migrate across the surface over many millions of years. Earth's interior remains active with a solid iron inner core, a liquid outer core that generates Earth's magnetic field, and a convecting mantle that drives plate tectonics.\n</p>\n";
   MainTextHolder2.innerHTML = "\n<p>\nEarth formed over 4.5 billion years ago. Within the first billion years of Earth's history, life appeared in the oceans and began to affect Earth's atmosphere and surface, leading to the proliferation of anaerobic and, later, aerobic organisms. \n</p>\n";
+  Name.scrollIntoView({
+    behavior: "smooth"
+  });
   console.log(MainImg);
 };
 
@@ -14287,6 +14299,9 @@ element[4].onclick = function () {
   MainImg.innerHTML = "\n<img src=".concat(_earth.default, " alt=\"\" class=\"MainImg\"/>\n");
   MainTextHolder1.innerHTML = "\n<p>\nEarth is the third planet from the Sun and the only astronomical object known to harbor life. About 29% of Earth's surface is land consisting of continents and islands. The remaining 71% is covered with water, mostly by oceans but also by lakes, rivers and other fresh water, which together constitute the hydrosphere. Much of Earth's polar regions are covered in ice. Earth's outer layer is divided into several rigid tectonic plates that migrate across the surface over many millions of years. Earth's interior remains active with a solid iron inner core, a liquid outer core that generates Earth's magnetic field, and a convecting mantle that drives plate tectonics.\n</p>\n";
   MainTextHolder2.innerHTML = "\n<p>\nEarth formed over 4.5 billion years ago. Within the first billion years of Earth's history, life appeared in the oceans and began to affect Earth's atmosphere and surface, leading to the proliferation of anaerobic and, later, aerobic organisms. \n</p>\n";
+  Name.scrollIntoView({
+    behavior: "smooth"
+  });
   console.log(MainImg);
 };
 
@@ -14304,6 +14319,9 @@ element[5].onclick = function () {
   MainImg.innerHTML = "\n<img src=".concat(_earth.default, " alt=\"\" class=\"MainImg\"/>\n");
   MainTextHolder1.innerHTML = "\n<p>\nEarth is the third planet from the Sun and the only astronomical object known to harbor life. About 29% of Earth's surface is land consisting of continents and islands. The remaining 71% is covered with water, mostly by oceans but also by lakes, rivers and other fresh water, which together constitute the hydrosphere. Much of Earth's polar regions are covered in ice. Earth's outer layer is divided into several rigid tectonic plates that migrate across the surface over many millions of years. Earth's interior remains active with a solid iron inner core, a liquid outer core that generates Earth's magnetic field, and a convecting mantle that drives plate tectonics.\n</p>\n";
   MainTextHolder2.innerHTML = "\n<p>\nEarth formed over 4.5 billion years ago. Within the first billion years of Earth's history, life appeared in the oceans and began to affect Earth's atmosphere and surface, leading to the proliferation of anaerobic and, later, aerobic organisms. \n</p>\n";
+  Name.scrollIntoView({
+    behavior: "smooth"
+  });
   console.log(MainImg);
 };
 
@@ -14321,6 +14339,9 @@ element[6].onclick = function () {
   MainImg.innerHTML = "\n<img src=".concat(_earth.default, " alt=\"\" class=\"MainImg\"/>\n");
   MainTextHolder1.innerHTML = "\n<p>\nEarth is the third planet from the Sun and the only astronomical object known to harbor life. About 29% of Earth's surface is land consisting of continents and islands. The remaining 71% is covered with water, mostly by oceans but also by lakes, rivers and other fresh water, which together constitute the hydrosphere. Much of Earth's polar regions are covered in ice. Earth's outer layer is divided into several rigid tectonic plates that migrate across the surface over many millions of years. Earth's interior remains active with a solid iron inner core, a liquid outer core that generates Earth's magnetic field, and a convecting mantle that drives plate tectonics.\n</p>\n";
   MainTextHolder2.innerHTML = "\n<p>\nEarth formed over 4.5 billion years ago. Within the first billion years of Earth's history, life appeared in the oceans and began to affect Earth's atmosphere and surface, leading to the proliferation of anaerobic and, later, aerobic organisms. \n</p>\n";
+  Name.scrollIntoView({
+    behavior: "smooth"
+  });
   console.log(MainImg);
 };
 
@@ -14338,6 +14359,9 @@ element[7].onclick = function () {
   MainImg.innerHTML = "\n<img src=".concat(_earth.default, " alt=\"\" class=\"MainImg\"/>\n");
   MainTextHolder1.innerHTML = "\n<p>\nEarth is the third planet from the Sun and the only astronomical object known to harbor life. About 29% of Earth's surface is land consisting of continents and islands. The remaining 71% is covered with water, mostly by oceans but also by lakes, rivers and other fresh water, which together constitute the hydrosphere. Much of Earth's polar regions are covered in ice. Earth's outer layer is divided into several rigid tectonic plates that migrate across the surface over many millions of years. Earth's interior remains active with a solid iron inner core, a liquid outer core that generates Earth's magnetic field, and a convecting mantle that drives plate tectonics.\n</p>\n";
   MainTextHolder2.innerHTML = "\n<p>\nEarth formed over 4.5 billion years ago. Within the first billion years of Earth's history, life appeared in the oceans and began to affect Earth's atmosphere and surface, leading to the proliferation of anaerobic and, later, aerobic organisms. \n</p>\n";
+  Name.scrollIntoView({
+    behavior: "smooth"
+  });
   console.log(MainImg);
 };
 
@@ -14355,6 +14379,9 @@ element[8].onclick = function () {
   MainImg.innerHTML = "\n<img src=".concat(_earth.default, " alt=\"\" class=\"MainImg\"/>\n");
   MainTextHolder1.innerHTML = "\n<p>\nEarth is the third planet from the Sun and the only astronomical object known to harbor life. About 29% of Earth's surface is land consisting of continents and islands. The remaining 71% is covered with water, mostly by oceans but also by lakes, rivers and other fresh water, which together constitute the hydrosphere. Much of Earth's polar regions are covered in ice. Earth's outer layer is divided into several rigid tectonic plates that migrate across the surface over many millions of years. Earth's interior remains active with a solid iron inner core, a liquid outer core that generates Earth's magnetic field, and a convecting mantle that drives plate tectonics.\n</p>\n";
   MainTextHolder2.innerHTML = "\n<p>\nEarth formed over 4.5 billion years ago. Within the first billion years of Earth's history, life appeared in the oceans and began to affect Earth's atmosphere and surface, leading to the proliferation of anaerobic and, later, aerobic organisms. \n</p>\n";
+  Name.scrollIntoView({
+    behavior: "smooth"
+  });
   console.log(MainImg);
 };
 },{"../assets/images/earth.png":"../src/assets/images/earth.png","../assets/images/snow.png":"../src/assets/images/snow.png"}],"../src/js/customMouse.js":[function(require,module,exports) {
@@ -14365,6 +14392,18 @@ function cursor(e) {
   mouseCursor.style.top = e.pageY + 'px';
   mouseCursor.style.left = e.pageX + 'px';
 }
+},{}],"../src/js/scollToViiew.js":[function(require,module,exports) {
+var element = document.getElementById('down');
+var Section2 = document.getElementById('Sec');
+var Info = document.getElementById('MainImgHolder');
+var plantpicker = document.getElementsByClassName('planetholder');
+
+element.onclick = function () {
+  Section2.scrollIntoView({
+    behavior: "smooth",
+    inline: "nearest"
+  });
+};
 },{}],"../src/js/main.js":[function(require,module,exports) {
 "use strict";
 
@@ -14377,7 +14416,9 @@ require("./moonrover");
 require("./planetpicker");
 
 require("./customMouse");
-},{"./parralax":"../src/js/parralax.js","./moon":"../src/js/moon.js","./moonrover":"../src/js/moonrover.js","./planetpicker":"../src/js/planetpicker.js","./customMouse":"../src/js/customMouse.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+
+require("./scollToViiew");
+},{"./parralax":"../src/js/parralax.js","./moon":"../src/js/moon.js","./moonrover":"../src/js/moonrover.js","./planetpicker":"../src/js/planetpicker.js","./customMouse":"../src/js/customMouse.js","./scollToViiew":"../src/js/scollToViiew.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -14405,7 +14446,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "40429" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "45249" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

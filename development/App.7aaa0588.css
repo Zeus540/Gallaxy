@@ -30,6 +30,8 @@
 }
 .Section1 h1 {
   padding-top: 5vw;
+  font-family: "Press Start 2P", cursive;
+  letter-spacing: 7px;
 }
 @media (min-width: 1px) and (max-width: 425px) {
   .Section1 {
@@ -37,7 +39,7 @@
   }
   .Section1 h1 {
     padding: 0px 41px;
-    font-size: 7.5vw;
+    font-size: 6.5vw;
     padding-bottom: 10vw;
   }
 }
@@ -45,6 +47,12 @@
   width: 55px;
   height: 55px;
   margin-bottom: 10px;
+}
+@media (min-width: 1px) and (max-width: 425px) {
+  .Section1 .SunS {
+    width: 50px;
+    height: 50px;
+  }
 }
 
 .planetholder {
@@ -62,7 +70,14 @@
 
 #planetName {
   padding-top: 0vw;
-  padding: 0px 41px 0vw 41px;
+  padding: 1vw 41px 1vw 41px;
+  font-family: "Press Start 2P", cursive;
+  letter-spacing: 7px;
+}
+@media (min-width: 1px) and (max-width: 425px) {
+  #planetName {
+    padding: 5vw 41px 5vw 41px;
+  }
 }
 
 .Flex {
@@ -98,7 +113,7 @@
 }
 
 .MainImgHolder {
-  width: 50%;
+  width: 33%;
   margin: 20px;
   margin: 0 auto;
   display: -webkit-box;
@@ -113,8 +128,7 @@
 }
 
 .MainImg {
-  width: 450px;
-  height: 450px;
+  width: 80%;
   margin: 0 auto;
 }
 @media (min-width: 1px) and (max-width: 425px) {
@@ -127,7 +141,7 @@
 .MainTextHolder1 {
   width: 33%;
   padding-left: 10vw;
-  padding-top: 5vw;
+  padding-top: 2vw;
   text-align: left;
 }
 .MainTextHolder1 p {
@@ -149,7 +163,7 @@
 .MainTextHolder2 {
   width: 33%;
   padding-right: 10vw;
-  padding-top: 5vw;
+  padding-top: 2vw;
   text-align: left;
 }
 .MainTextHolder2 p {
@@ -272,6 +286,12 @@
     width: 100vw;
   }
 }
+@media (min-width: 426px) and (max-width: 768px) {
+  .Foreground1 {
+    height: 125vh;
+    width: 100vw;
+  }
+}
 
 .bg {
   top: -2vw !important;
@@ -283,6 +303,21 @@
   height: 120vh;
   -webkit-filter: brightness(0.7);
           filter: brightness(0.7);
+}
+
+.Stars img {
+  width: 100vw;
+  height: 120vh;
+  -webkit-filter: brightness(1);
+          filter: brightness(1);
+}
+@media (min-width: 1px) and (max-width: 425px) {
+  .Stars img {
+    height: 125vh;
+    width: 300vw;
+    -webkit-filter: brightness(1);
+            filter: brightness(1);
+  }
 }
 
 .HeadingCenter {
@@ -302,7 +337,12 @@
 }
 @media (min-width: 1px) and (max-width: 425px) {
   .HeadingCenter h1 {
-    font-size: 8vw;
+    font-size: 14vw;
+  }
+}
+@media (min-width: 426px) and (max-width: 768px) {
+  .HeadingCenter h1 {
+    font-size: 5vw;
   }
 }
 
