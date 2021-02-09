@@ -39,7 +39,7 @@
   }
   .Section1 h1 {
     padding: 0px 41px;
-    font-size: 6.5vw;
+    font-size: 6vw;
     padding-bottom: 10vw;
   }
 }
@@ -63,7 +63,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 20px;
+  margin: 30px;
   margin-bottom: 10px;
   text-align: center;
 }
@@ -92,6 +92,14 @@
   padding-bottom: 2vw;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  padding-right: 10vw;
+  padding-left: 10vw;
+}
+@media (min-width: 1px) and (max-width: 425px) {
+  .Flex {
+    padding-right: 2vw;
+    padding-left: 2vw;
+  }
 }
 
 .FlexContent {
@@ -146,7 +154,7 @@
 }
 .MainTextHolder1 p {
   font-size: 1vw;
-  text-align: justify;
+  text-align: right;
 }
 @media (min-width: 1px) and (max-width: 425px) {
   .MainTextHolder1 {
@@ -168,7 +176,7 @@
 }
 .MainTextHolder2 p {
   font-size: 1vw;
-  text-align: justify;
+  text-align: left;
 }
 @media (min-width: 1px) and (max-width: 425px) {
   .MainTextHolder2 {
@@ -233,14 +241,28 @@
     height: 100%;
   }
 }
+@media (min-width: 426px) and (max-width: 768px) {
+  .moon .moonrover {
+    width: 100px;
+    height: 100%;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .moon .moonrover {
+    width: 100px;
+    height: 100%;
+  }
+}
 
 .fore {
-  left: -50px !important;
-  top: 32vh !important;
+  left: 0px !important;
+  top: unset !important;
+  bottom: -2vw;
 }
 @media (min-width: 1px) and (max-width: 425px) {
   .fore {
-    top: 0px !important;
+    top: unset !important;
+    bottom: -2vw;
     left: -5px !important;
     height: 100vh;
   }
@@ -256,6 +278,20 @@
 @media (min-width: 1px) and (max-width: 425px) {
   .Foreground {
     height: 40vh;
+    position: absolute;
+    bottom: 0px;
+  }
+}
+@media (min-width: 426px) and (max-width: 768px) {
+  .Foreground {
+    height: 40vh;
+    width: 100vw;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .Foreground {
+    height: 50vh;
+    width: 100vw;
     position: absolute;
     bottom: 0px;
   }
@@ -292,6 +328,12 @@
     width: 100vw;
   }
 }
+@media (min-width: 769px) and (max-width: 1024px) {
+  .Foreground1 {
+    height: 125vh;
+    width: 70vw;
+  }
+}
 
 .bg {
   top: -2vw !important;
@@ -301,6 +343,26 @@
 .bg img {
   width: 120vw;
   height: 120vh;
+  -webkit-filter: brightness(0.7);
+          filter: brightness(0.7);
+}
+@media (min-width: 1px) and (max-width: 425px) {
+  .bg img {
+    height: 125vh;
+    width: 300vw;
+    -webkit-filter: brightness(1);
+            filter: brightness(1);
+  }
+}
+
+.Backs {
+  top: unset !important;
+  left: -2vw !important;
+  bottom: -2vw !important;
+}
+
+.Backs img {
+  width: 100vw;
   -webkit-filter: brightness(0.7);
           filter: brightness(0.7);
 }
@@ -337,7 +399,7 @@
 }
 @media (min-width: 1px) and (max-width: 425px) {
   .HeadingCenter h1 {
-    font-size: 14vw;
+    font-size: 12vw;
   }
 }
 @media (min-width: 426px) and (max-width: 768px) {

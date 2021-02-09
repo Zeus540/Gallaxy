@@ -169,6 +169,8 @@ module.exports = "/midright.6bf9c79f.png";
 module.exports = "/foregroundleft.dc0b0fc8.png";
 },{}],"../src/assets/images/bg.png":[function(require,module,exports) {
 module.exports = "/bg.7838869d.png";
+},{}],"../src/assets/images/backs.png":[function(require,module,exports) {
+module.exports = "/backs.490778b0.png";
 },{}],"../src/assets/images/moon.png":[function(require,module,exports) {
 module.exports = "/moon.1fbe7d34.png";
 },{}],"../src/assets/images/stars2.png":[function(require,module,exports) {
@@ -189,6 +191,8 @@ var _foregroundleft = _interopRequireDefault(require("../assets/images/foregroun
 
 var _bg = _interopRequireDefault(require("../assets/images/bg.png"));
 
+var _backs = _interopRequireDefault(require("../assets/images/backs.png"));
+
 var _moon = _interopRequireDefault(require("../assets/images/moon.png"));
 
 var _stars = _interopRequireDefault(require("../assets/images/stars2.png"));
@@ -196,13 +200,13 @@ var _stars = _interopRequireDefault(require("../assets/images/stars2.png"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var Section2 = function Section2() {
-  var template = "\n    \n\n      <div class=\"Section2\">\n     \n      <div id=\"scene\">\n\n      <div data-depth=\"0.1\" class=\"bg\">\n        <img src=".concat(_bg.default, " alt=\"\" />\n      </div>\n\n      <div data-depth=\"0.2\" class=\"Stars\">\n        <img src=").concat(_stars.default, " alt=\"\" />\n      </div>\n  \n      <div data-depth=\"0.5\" class=\"earth\">\n        <img src=").concat(_snow.default, " alt=\"\" class=\"Sun\"/>\n      </div>\n\n    \n      <div data-depth=\"0.15\" class=\"fore\">\n        <img src=").concat(_midright.default, " alt=\"\"  class=\"Foreground\"/>\n      </div>\n\n      <div  class=\"moon\">\n        <img src=").concat(_moon.default, " alt=\"\" class=\"moonrover\"/>\n      </div>\n\n      <div data-depth=\"0.2\" class=\"fore1\">\n        <img src=").concat(_foregroundleft.default, " alt=\"\"  class=\"Foreground1\"/>\n      </div>\n\n    \n\n      </div>\n      <div class=\"HeadingCenter\" >\n        <h1>SPACE</h1>\n      </div>\n  \n      </div>\n  \n\n   \n    ");
+  var template = "\n    \n\n      <div class=\"Section2\">\n     \n      <div id=\"scene\">\n\n      <div data-depth=\"0.1\" class=\"bg\">\n        <img src=".concat(_bg.default, " alt=\"\" />\n      </div>\n\n      <div data-depth=\"0.5\" class=\"earth\">\n      <img src=").concat(_snow.default, " alt=\"\" class=\"Sun\"/>\n    </div>\n    \n      <div data-depth=\"0.1\" class=\"Backs\">\n      <img src=").concat(_backs.default, " alt=\"\" />\n    </div>\n\n    <div  class=\"moon\">\n    <img src=").concat(_moon.default, " alt=\"\" class=\"moonrover\"/>\n  </div>\n\n      <div data-depth=\"0.2\" class=\"Stars\">\n        <img src=").concat(_stars.default, " alt=\"\" />\n      </div>\n  \n  \n\n    \n      <div data-depth=\"0.15\" class=\"fore\">\n        <img src=").concat(_midright.default, " alt=\"\"  class=\"Foreground\"/>\n      </div>\n\n\n      <div data-depth=\"0.2\" class=\"fore1\">\n        <img src=").concat(_foregroundleft.default, " alt=\"\"  class=\"Foreground1\"/>\n      </div>\n\n    \n\n      </div>\n      <div class=\"HeadingCenter\" >\n        <h1>SPACE</h1>\n      </div>\n  \n      </div>\n  \n\n   \n    ");
   return template;
 };
 
 var _default = Section2;
 exports.default = _default;
-},{"../assets/images/snow.png":"../src/assets/images/snow.png","../assets/images/midright.png":"../src/assets/images/midright.png","../assets/images/foregroundleft.png":"../src/assets/images/foregroundleft.png","../assets/images/bg.png":"../src/assets/images/bg.png","../assets/images/moon.png":"../src/assets/images/moon.png","../assets/images/stars2.png":"../src/assets/images/stars2.png"}],"../node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
+},{"../assets/images/snow.png":"../src/assets/images/snow.png","../assets/images/midright.png":"../src/assets/images/midright.png","../assets/images/foregroundleft.png":"../src/assets/images/foregroundleft.png","../assets/images/bg.png":"../src/assets/images/bg.png","../assets/images/backs.png":"../src/assets/images/backs.png","../assets/images/moon.png":"../src/assets/images/moon.png","../assets/images/stars2.png":"../src/assets/images/stars2.png"}],"../node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
 var bundleURL = null;
 
 function getBundleURLCached() {
@@ -320,7 +324,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "45249" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "38803" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

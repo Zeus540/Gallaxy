@@ -13,7 +13,7 @@ h1{
   padding-top: 16vw;
   h1{
     padding: 0px 41px;
-    font-size: 6.5vw;
+    font-size: 6vw;
 
     padding-bottom: 10vw;
   }
@@ -31,7 +31,7 @@ h1{
 .planetholder{
   display: flex;
   flex-direction: column;
-  margin: 20px;
+  margin: 30px;
   margin-bottom: 10px;
   text-align: center;
 }
@@ -51,6 +51,12 @@ h1{
   padding-top: 1vw;
   padding-bottom: 2vw;
 flex-wrap: wrap;
+padding-right: 10vw;
+padding-left: 10vw;
+@media(min-width:1px) and (max-width:425px){
+  padding-right: 2vw;
+padding-left: 2vw;
+ }
 }
 .FlexContent{
   justify-content: center;
@@ -85,7 +91,7 @@ flex-wrap: wrap;
   text-align: left;
   p{
     font-size: 1vw;
-    text-align: justify;
+    text-align: right;
   }
   @media(min-width:1px) and (max-width:425px){
     width: 100%;
@@ -105,7 +111,7 @@ flex-wrap: wrap;
   text-align: left;
   p{
     font-size: 1vw;
-    text-align: justify;
+    text-align: left;
   }
   @media(min-width:1px) and (max-width:425px){
     width: 100%;
