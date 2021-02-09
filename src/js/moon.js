@@ -16,7 +16,7 @@ let tl = gsap.timeline({
      
       start: "20px 100%", // when the top of the trigger hits the top of the viewport
 
-      scrub: 1, // smooth scrubbing, takes 1 second to "catch up" to the scrollbar
+      scrub: 4, // smooth scrubbing, takes 1 second to "catch up" to the scrollbar
      
  
     }

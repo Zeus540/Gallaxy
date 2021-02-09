@@ -27,7 +27,9 @@
   position: relative;
   background: #04000c;
   text-align: center;
-  padding-top: 2vw;
+}
+.Section1 h1 {
+  padding-top: 5vw;
 }
 @media (min-width: 1px) and (max-width: 425px) {
   .Section1 {
@@ -36,12 +38,31 @@
   .Section1 h1 {
     padding: 0px 41px;
     font-size: 7.5vw;
+    padding-bottom: 10vw;
   }
 }
 .Section1 .SunS {
   width: 55px;
   height: 55px;
+  margin-bottom: 10px;
+}
+
+.planetholder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   margin: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#planetName {
+  padding-top: 0vw;
+  padding: 0px 41px 0vw 41px;
 }
 
 .Flex {
@@ -52,6 +73,8 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding-top: 1vw;
+  padding-bottom: 2vw;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }

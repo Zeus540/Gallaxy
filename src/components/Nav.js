@@ -7,17 +7,13 @@ const Nav = () => {
   
   <div class="Nav " id="Nav">
 
-    <h1>
-        hello
-    </h1>
+  
 
     <h1>
         LETS EXPLORE
     </h1>
 
-    <h1>
-        hello
-    </h1>
+  
   </div>
   `
 

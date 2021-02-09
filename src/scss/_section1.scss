@@ -4,25 +4,42 @@
 position: relative;
 background: #04000c;
 text-align: center;
-padding-top: 2vw;
+h1{
+  padding-top: 5vw;
+}
 @media(min-width:1px) and (max-width:425px){
   padding-top: 16vw;
   h1{
     padding: 0px 41px;
     font-size: 7.5vw;
+
+    padding-bottom: 10vw;
   }
  }
   .SunS{
     width: 55px;
     height: 55px;
-    margin: 20px;
+    margin-bottom: 10px;
+   
   }
+}
+.planetholder{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+#planetName{
+  padding-top: 0vw;
+  padding: 0px 41px 0vw 41px;
 }
 .Flex{
   justify-content: center;
   width: 100%;
   display: flex;
-
+  padding-top: 1vw;
+  padding-bottom: 2vw;
 flex-wrap: wrap;
 }
 .FlexContent{
