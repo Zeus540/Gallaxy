@@ -6,7 +6,7 @@
 }
 
 .Sun{
-  width: 45%;
+  width: 25%;
   height: 100%;
   position: relative;
   left: -25vw;
@@ -57,7 +57,7 @@
   width: 105vw;
   z-index: 3;
   
-  filter:brightness(0.5);
+  filter:brightness(1);
   @media(min-width:1px) and (max-width:425px){
     height: 40vh;
     position: absolute;

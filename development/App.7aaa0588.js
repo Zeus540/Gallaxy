@@ -142,7 +142,21 @@ var Nav = function Nav() {
 
 var _default = Nav;
 exports.default = _default;
-},{"../assets/images/snow.png":"../src/assets/images/snow.png","../assets/images/earth.png":"../src/assets/images/earth.png"}],"../src/components/Section1.js":[function(require,module,exports) {
+},{"../assets/images/snow.png":"../src/assets/images/snow.png","../assets/images/earth.png":"../src/assets/images/earth.png"}],"../src/assets/images/mars.png":[function(require,module,exports) {
+module.exports = "/mars.11df079f.png";
+},{}],"../src/assets/images/venus.png":[function(require,module,exports) {
+module.exports = "/venus.29ab58fd.png";
+},{}],"../src/assets/images/uranus.png":[function(require,module,exports) {
+module.exports = "/uranus.1e0694b4.png";
+},{}],"../src/assets/images/mercury.png":[function(require,module,exports) {
+module.exports = "/mercury.217aaeac.png";
+},{}],"../src/assets/images/saturn.png":[function(require,module,exports) {
+module.exports = "/saturn.b6639b6c.png";
+},{}],"../src/assets/images/neptune.png":[function(require,module,exports) {
+module.exports = "/neptune.bfc0a707.png";
+},{}],"../src/assets/images/jupiter.png":[function(require,module,exports) {
+module.exports = "/jupiter.54f06be8.png";
+},{}],"../src/components/Section1.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -154,16 +168,30 @@ var _snow = _interopRequireDefault(require("../assets/images/snow.png"));
 
 var _earth = _interopRequireDefault(require("../assets/images/earth.png"));
 
+var _mars = _interopRequireDefault(require("../assets/images/mars.png"));
+
+var _venus = _interopRequireDefault(require("../assets/images/venus.png"));
+
+var _uranus = _interopRequireDefault(require("../assets/images/uranus.png"));
+
+var _mercury = _interopRequireDefault(require("../assets/images/mercury.png"));
+
+var _saturn = _interopRequireDefault(require("../assets/images/saturn.png"));
+
+var _neptune = _interopRequireDefault(require("../assets/images/neptune.png"));
+
+var _jupiter = _interopRequireDefault(require("../assets/images/jupiter.png"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var Section1 = function Section1() {
-  var template = "\n  \n  <div class=\"Section1 \" id=\"Sec\">\n\n\n        <h1 >CHOOSE A PLANET</h1>\n\n        <div class=\"Flex\">\n\n          <div class=\"planetholder\">\n            <img src=".concat(_snow.default, " alt=\"\" class=\"SunS\"/>\n            <span>Mars</span>\n          </div>\n\n          <div class=\"planetholder\">\n            <img src=").concat(_earth.default, " alt=\"\" class=\"SunS\"/>\n            <span>Earth</span>\n          </div>\n\n          <div class=\"planetholder\">\n            <img src=").concat(_snow.default, " alt=\"\" class=\"SunS\"/>\n            <span>Saturn</span>\n          </div>\n\n          <div class=\"planetholder\">\n            <img src=").concat(_snow.default, " alt=\"\" class=\"SunS\"/>\n            <span>Venus</span>\n          </div>\n\n          <div class=\"planetholder\">\n          <img src=").concat(_snow.default, " alt=\"\" class=\"SunS\"/>\n          <span>Uranus</span>\n          </div>\n\n          <div class=\"planetholder\">\n          <img src=").concat(_snow.default, " alt=\"\" class=\"SunS\"/>\n          <span>Mercury</span>\n          </div>\n\n          <div class=\"planetholder\">\n          <img src=").concat(_snow.default, " alt=\"\" class=\"SunS\"/>\n          <span>Jupiter</span>\n          </div>\n\n          <div class=\"planetholder\">\n          <img src=").concat(_snow.default, " alt=\"\" class=\"SunS\"/>\n          <span>Pluto</span>\n          </div>\n\n          <div class=\"planetholder\">\n          <img src=").concat(_snow.default, " alt=\"\" class=\"SunS\"/>\n          <span>Neptune</span>\n          </div>\n        </div>\n\n        <div id=\"planetName\"></div>\n\n        <div class=\"FlexContent\">\n\n            <div class=\"MainTextHolder1\" id=\"MainTextHolder1\"></div>\n\n            <div class=\"MainImgHolder\" id=\"MainImgHolder\" ></div>\n\n            <div class=\"MainTextHolder2\" id=\"MainTextHolder2\"></div>\n\n        </div>\n\n    \n  </div>\n  ");
+  var template = "\n  \n  <div class=\"Section1 \" id=\"Sec\">\n\n\n        <h1 >CHOOSE A PLANET</h1>\n\n        <div class=\"Flex\">\n\n          <div class=\"planetholder\">\n            <img src=".concat(_mars.default, " alt=\"\" class=\"SunS\"/>\n            <span>Mars</span>\n          </div>\n\n          <div class=\"planetholder\">\n            <img src=").concat(_earth.default, " alt=\"\" class=\"SunS\"/>\n            <span>Earth</span>\n          </div>\n\n          <div class=\"planetholder\">\n            <img src=").concat(_saturn.default, " alt=\"\" class=\"SunS\"/>\n            <span>Saturn</span>\n          </div>\n\n          <div class=\"planetholder\">\n            <img src=").concat(_venus.default, " alt=\"\" class=\"SunS\"/>\n            <span>Venus</span>\n          </div>\n\n          <div class=\"planetholder\">\n          <img src=").concat(_uranus.default, " alt=\"\" class=\"SunS\"/>\n          <span>Uranus</span>\n          </div>\n\n          <div class=\"planetholder\">\n          <img src=").concat(_mercury.default, " alt=\"\" class=\"SunS\"/>\n          <span>Mercury</span>\n          </div>\n\n          <div class=\"planetholder\">\n          <img src=").concat(_jupiter.default, " alt=\"\" class=\"SunS\"/>\n          <span>Jupiter</span>\n          </div>\n\n  \n\n          <div class=\"planetholder\">\n          <img src=").concat(_neptune.default, " alt=\"\" class=\"SunS\"/>\n          <span>Neptune</span>\n          </div>\n        </div>\n\n        <div id=\"planetName\"></div>\n\n        <div class=\"FlexContent\">\n\n            <div class=\"MainTextHolder1\" id=\"MainTextHolder1\"></div>\n\n            <div class=\"MainImgHolder\" id=\"MainImgHolder\" ></div>\n\n            <div class=\"MainTextHolder2\" id=\"MainTextHolder2\"></div>\n\n        </div>\n\n    \n  </div>\n  ");
   return template;
 };
 
 var _default = Section1;
 exports.default = _default;
-},{"../assets/images/snow.png":"../src/assets/images/snow.png","../assets/images/earth.png":"../src/assets/images/earth.png"}],"../src/assets/images/midright.png":[function(require,module,exports) {
+},{"../assets/images/snow.png":"../src/assets/images/snow.png","../assets/images/earth.png":"../src/assets/images/earth.png","../assets/images/mars.png":"../src/assets/images/mars.png","../assets/images/venus.png":"../src/assets/images/venus.png","../assets/images/uranus.png":"../src/assets/images/uranus.png","../assets/images/mercury.png":"../src/assets/images/mercury.png","../assets/images/saturn.png":"../src/assets/images/saturn.png","../assets/images/neptune.png":"../src/assets/images/neptune.png","../assets/images/jupiter.png":"../src/assets/images/jupiter.png"}],"../src/assets/images/midright.png":[function(require,module,exports) {
 module.exports = "/midright.6bf9c79f.png";
 },{}],"../src/assets/images/foregroundleft.png":[function(require,module,exports) {
 module.exports = "/foregroundleft.dc0b0fc8.png";
@@ -200,7 +228,7 @@ var _stars = _interopRequireDefault(require("../assets/images/stars2.png"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var Section2 = function Section2() {
-  var template = "\n    \n\n      <div class=\"Section2\">\n     \n      <div id=\"scene\">\n\n      <div data-depth=\"0.1\" class=\"bg\">\n        <img src=".concat(_bg.default, " alt=\"\" />\n      </div>\n\n      <div data-depth=\"0.5\" class=\"earth\">\n      <img src=").concat(_snow.default, " alt=\"\" class=\"Sun\"/>\n    </div>\n    \n      <div data-depth=\"0.1\" class=\"Backs\">\n      <img src=").concat(_backs.default, " alt=\"\" />\n    </div>\n\n    <div  class=\"moon\">\n    <img src=").concat(_moon.default, " alt=\"\" class=\"moonrover\"/>\n  </div>\n\n      <div data-depth=\"0.2\" class=\"Stars\">\n        <img src=").concat(_stars.default, " alt=\"\" />\n      </div>\n  \n  \n\n    \n      <div data-depth=\"0.15\" class=\"fore\">\n        <img src=").concat(_midright.default, " alt=\"\"  class=\"Foreground\"/>\n      </div>\n\n\n      <div data-depth=\"0.2\" class=\"fore1\">\n        <img src=").concat(_foregroundleft.default, " alt=\"\"  class=\"Foreground1\"/>\n      </div>\n\n    \n\n      </div>\n      <div class=\"HeadingCenter\" >\n        <h1>SPACE</h1>\n      </div>\n  \n      </div>\n  \n\n   \n    ");
+  var template = "\n    \n\n      <div class=\"Section2\">\n     \n      <div id=\"scene\">\n\n      <div data-depth=\"0.1\" class=\"bg\">\n        <img src=".concat(_bg.default, " alt=\"\" />\n      </div>\n\n      <div data-depth=\"0.2\" class=\"Stars\">\n      <img src=").concat(_stars.default, " alt=\"\" />\n    </div>\n\n      <div data-depth=\"0.5\" class=\"earth\">\n      <img src=").concat(_snow.default, " alt=\"\" class=\"Sun\"/>\n    </div>\n\n      <div data-depth=\"0.2\" class=\"Backs\">\n      <img src=").concat(_backs.default, " alt=\"\" />\n    </div>\n\n    <div  class=\"moon\">\n    <img src=").concat(_moon.default, " alt=\"\" class=\"moonrover\"/>\n  </div>\n\n     \n  \n  \n\n    \n      <div data-depth=\"0.15\" class=\"fore\">\n        <img src=").concat(_midright.default, " alt=\"\"  class=\"Foreground\"/>\n      </div>\n\n\n      <div data-depth=\"0.2\" class=\"fore1\">\n        <img src=").concat(_foregroundleft.default, " alt=\"\"  class=\"Foreground1\"/>\n      </div>\n\n    \n\n      </div>\n      <div class=\"HeadingCenter\" >\n        <h1>SPACE</h1>\n      </div>\n  \n      </div>\n  \n\n   \n    ");
   return template;
 };
 
@@ -324,7 +352,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "38803" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "40537" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

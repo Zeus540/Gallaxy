@@ -19,11 +19,15 @@ const Section2 = () => {
         <img src=${Bg} alt="" />
       </div>
 
+      <div data-depth="0.2" class="Stars">
+      <img src=${Stars} alt="" />
+    </div>
+
       <div data-depth="0.5" class="earth">
       <img src=${Img} alt="" class="Sun"/>
     </div>
-    
-      <div data-depth="0.1" class="Backs">
+
+      <div data-depth="0.2" class="Backs">
       <img src=${Backs} alt="" />
     </div>
 
@@ -31,9 +35,7 @@ const Section2 = () => {
     <img src=${Moon} alt="" class="moonrover"/>
   </div>
 
-      <div data-depth="0.2" class="Stars">
-        <img src=${Stars} alt="" />
-      </div>
+     
   
   
 

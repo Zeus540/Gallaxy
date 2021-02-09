@@ -24,6 +24,7 @@
 
 .Section1 {
   min-width: 100%;
+  padding-bottom: 5vw;
   position: relative;
   background: #04000c;
   text-align: center;
@@ -44,14 +45,14 @@
   }
 }
 .Section1 .SunS {
-  width: 55px;
-  height: 55px;
+  width: 70px;
+  height: 70px;
   margin-bottom: 10px;
 }
 @media (min-width: 1px) and (max-width: 425px) {
   .Section1 .SunS {
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
   }
 }
 
@@ -138,10 +139,11 @@
 .MainImg {
   width: 80%;
   margin: 0 auto;
+  margin-top: -3vw;
 }
 @media (min-width: 1px) and (max-width: 425px) {
   .MainImg {
-    width: 100%;
+    width: 250%;
     height: 100%;
   }
 }
@@ -160,7 +162,7 @@
   .MainTextHolder1 {
     width: 100%;
     margin: 0 auto;
-    padding: 20px 41px;
+    padding: 0px 41px;
   }
   .MainTextHolder1 p {
     font-size: 4.5vw;
@@ -182,7 +184,7 @@
   .MainTextHolder2 {
     width: 100%;
     margin: 0 auto;
-    padding: 20px 41px;
+    padding: 0px 41px;
   }
   .MainTextHolder2 p {
     font-size: 4.5vw;
@@ -210,7 +212,7 @@
 }
 
 .Sun {
-  width: 45%;
+  width: 25%;
   height: 100%;
   position: relative;
   left: -25vw;
@@ -272,8 +274,8 @@
   height: 70vh;
   width: 105vw;
   z-index: 3;
-  -webkit-filter: brightness(0.5);
-          filter: brightness(0.5);
+  -webkit-filter: brightness(1);
+          filter: brightness(1);
 }
 @media (min-width: 1px) and (max-width: 425px) {
   .Foreground {

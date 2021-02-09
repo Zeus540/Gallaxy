@@ -1,5 +1,12 @@
 import Img from '../assets/images/snow.png'
 import earth from '../assets/images/earth.png'
+import mars from '../assets/images/mars.png'
+import venus from '../assets/images/venus.png'
+import uranus from '../assets/images/uranus.png'
+import mercury from '../assets/images/mercury.png'
+import saturn from '../assets/images/saturn.png'
+import neptune from '../assets/images/neptune.png'
+import jupiter from '../assets/images/jupiter.png'
 
 const Section1 = () => {
 
@@ -13,7 +20,7 @@ const Section1 = () => {
         <div class="Flex">
 
           <div class="planetholder">
-            <img src=${Img} alt="" class="SunS"/>
+            <img src=${mars} alt="" class="SunS"/>
             <span>Mars</span>
           </div>
 
@@ -23,37 +30,34 @@ const Section1 = () => {
           </div>
 
           <div class="planetholder">
-            <img src=${Img} alt="" class="SunS"/>
+            <img src=${saturn} alt="" class="SunS"/>
             <span>Saturn</span>
           </div>
 
           <div class="planetholder">
-            <img src=${Img} alt="" class="SunS"/>
+            <img src=${venus} alt="" class="SunS"/>
             <span>Venus</span>
           </div>
 
           <div class="planetholder">
-          <img src=${Img} alt="" class="SunS"/>
+          <img src=${uranus} alt="" class="SunS"/>
           <span>Uranus</span>
           </div>
 
           <div class="planetholder">
-          <img src=${Img} alt="" class="SunS"/>
+          <img src=${mercury} alt="" class="SunS"/>
           <span>Mercury</span>
           </div>
 
           <div class="planetholder">
-          <img src=${Img} alt="" class="SunS"/>
+          <img src=${jupiter} alt="" class="SunS"/>
           <span>Jupiter</span>
           </div>
 
-          <div class="planetholder">
-          <img src=${Img} alt="" class="SunS"/>
-          <span>Pluto</span>
-          </div>
+  
 
           <div class="planetholder">
-          <img src=${Img} alt="" class="SunS"/>
+          <img src=${neptune} alt="" class="SunS"/>
           <span>Neptune</span>
           </div>
         </div>

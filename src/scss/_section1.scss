@@ -1,6 +1,6 @@
 .Section1{
   min-width: 100%;
-
+padding-bottom: 5vw;
 position: relative;
 background: #04000c;
 text-align: center;
@@ -19,12 +19,12 @@ h1{
   }
  }
   .SunS{
-    width: 55px;
-    height: 55px;
+    width: 70px;
+    height: 70px;
     margin-bottom: 10px;
     @media(min-width:1px) and (max-width:425px){
-      width: 50px;
-      height: 50px;
+      width: 70px;
+      height: 70px;
      }
   }
 }
@@ -77,10 +77,10 @@ padding-left: 2vw;
 }
 .MainImg{
   width: 80%;
-
   margin: 0 auto;
+  margin-top: -3vw;
   @media(min-width:1px) and (max-width:425px){
-    width: 100%;
+    width: 250%;
     height: 100%;
    }
 }
@@ -89,6 +89,7 @@ padding-left: 2vw;
   padding-left: 10vw;
   padding-top: 2vw;
   text-align: left;
+
   p{
     font-size: 1vw;
     text-align: right;
@@ -96,7 +97,7 @@ padding-left: 2vw;
   @media(min-width:1px) and (max-width:425px){
     width: 100%;
     margin: 0 auto;
-    padding: 20px 41px;
+    padding: 0px 41px;
     p{
       font-size: 4.5vw;
       text-align: justify;
@@ -109,6 +110,8 @@ padding-left: 2vw;
   padding-right: 10vw;
   padding-top: 2vw;
   text-align: left;
+
+
   p{
     font-size: 1vw;
     text-align: left;
@@ -116,7 +119,7 @@ padding-left: 2vw;
   @media(min-width:1px) and (max-width:425px){
     width: 100%;
     margin: 0 auto;
-    padding: 20px 41px;
+    padding: 0px 41px;
     p{
       font-size: 4.5vw;
       text-align: justify;

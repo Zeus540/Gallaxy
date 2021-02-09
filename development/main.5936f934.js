@@ -14188,12 +14188,40 @@ t2.addLabel("start").from(".moon", {
 }).addLabel("end");
 },{"gsap":"../node_modules/gsap/index.js","gsap/Draggable":"../node_modules/gsap/Draggable.js","gsap/MotionPathPlugin":"../node_modules/gsap/MotionPathPlugin.js","gsap/TextPlugin":"../node_modules/gsap/TextPlugin.js","gsap/ScrollToPlugin":"../node_modules/gsap/ScrollToPlugin.js","gsap/ScrollTrigger":"../node_modules/gsap/ScrollTrigger.js"}],"../src/assets/images/earth.png":[function(require,module,exports) {
 module.exports = "/earth.36937241.png";
+},{}],"../src/assets/images/mars.png":[function(require,module,exports) {
+module.exports = "/mars.11df079f.png";
+},{}],"../src/assets/images/venus.png":[function(require,module,exports) {
+module.exports = "/venus.29ab58fd.png";
+},{}],"../src/assets/images/uranus.png":[function(require,module,exports) {
+module.exports = "/uranus.1e0694b4.png";
+},{}],"../src/assets/images/mercury.png":[function(require,module,exports) {
+module.exports = "/mercury.217aaeac.png";
+},{}],"../src/assets/images/saturn.png":[function(require,module,exports) {
+module.exports = "/saturn.b6639b6c.png";
+},{}],"../src/assets/images/neptune.png":[function(require,module,exports) {
+module.exports = "/neptune.bfc0a707.png";
+},{}],"../src/assets/images/jupiter.png":[function(require,module,exports) {
+module.exports = "/jupiter.54f06be8.png";
 },{}],"../src/assets/images/snow.png":[function(require,module,exports) {
 module.exports = "/snow.056a5644.png";
 },{}],"../src/js/planetpicker.js":[function(require,module,exports) {
 "use strict";
 
 var _earth = _interopRequireDefault(require("../assets/images/earth.png"));
+
+var _mars = _interopRequireDefault(require("../assets/images/mars.png"));
+
+var _venus = _interopRequireDefault(require("../assets/images/venus.png"));
+
+var _uranus = _interopRequireDefault(require("../assets/images/uranus.png"));
+
+var _mercury = _interopRequireDefault(require("../assets/images/mercury.png"));
+
+var _saturn = _interopRequireDefault(require("../assets/images/saturn.png"));
+
+var _neptune = _interopRequireDefault(require("../assets/images/neptune.png"));
+
+var _jupiter = _interopRequireDefault(require("../assets/images/jupiter.png"));
 
 var _snow = _interopRequireDefault(require("../assets/images/snow.png"));
 
@@ -14214,11 +14242,10 @@ element[0].onclick = function () {
   element[5].style.transform = "scale(1)";
   element[6].style.transform = "scale(1)";
   element[7].style.transform = "scale(1)";
-  element[8].style.transform = "scale(1)";
   Name.innerHTML = "\n    <h1 id=\"planetName\">Mars</h1>\n    ";
-  MainImg.innerHTML = "\n    <img src=".concat(_snow.default, " alt=\"\" class=\"MainImg\"/>\n    ");
-  MainTextHolder1.innerHTML = "\n    <p>\n    Earth is the third planet from the Sun and the only astronomical object known to harbor life. About 29% of Earth's surface is land consisting of continents and islands. The remaining 71% is covered with water, mostly by oceans but also by lakes, rivers and other fresh water, which together constitute the hydrosphere. Much of Earth's polar regions are covered in ice. Earth's outer layer is divided into several rigid tectonic plates that migrate across the surface over many millions of years. Earth's interior remains active with a solid iron inner core, a liquid outer core that generates Earth's magnetic field, and a convecting mantle that drives plate tectonics.\n    </p>\n    ";
-  MainTextHolder2.innerHTML = "\n    <p>\n    Earth formed over 4.5 billion years ago. Within the first billion years of Earth's history, life appeared in the oceans and began to affect Earth's atmosphere and surface, leading to the proliferation of anaerobic and, later, aerobic organisms. \n    </p>\n    ";
+  MainImg.innerHTML = "\n    <img src=".concat(_mars.default, " alt=\"\" class=\"MainImg\"/>\n    ");
+  MainTextHolder1.innerHTML = "\n    <p>\n    Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System, being larger than only Mercury. In English, Mars carries the name of the Roman god of war and is often referred to as the \"Red Planet\". The latter refers to the effect of the iron oxide prevalent on Mars's surface, which gives it a reddish appearance distinctive among the astronomical bodies visible to the naked eye. Mars is a terrestrial planet with a thin atmosphere, with surface features reminiscent of the impact craters of the Moon and the valleys, deserts and polar ice caps of Earth.\n    </p>\n    ";
+  MainTextHolder2.innerHTML = "\n    <p>\n    Mars has been explored by several uncrewed spacecraft. Mariner 4 was the first spacecraft to visit Mars; launched by NASA on 28 November 1964, it made its closest approach to the planet on 15 July 1965. Mariner 4 detected the weak Martian radiation belt, measured at about 0.1% that of Earth, and captured the first images of another planet from deep space.The Soviet Mars 3 mission included a lander, which achieved a soft landing in December 1971; however, contact was lost seconds after touchdown. \n    </p>\n    ";
   Name.scrollIntoView({
     behavior: "smooth"
   });
@@ -14234,11 +14261,10 @@ element[1].onclick = function () {
   element[5].style.transform = "scale(1)";
   element[6].style.transform = "scale(1)";
   element[7].style.transform = "scale(1)";
-  element[8].style.transform = "scale(1)";
   Name.innerHTML = "\n    <h1 id=\"planetName\">Earth</h1>\n    ";
   MainImg.innerHTML = "\n    <img src=".concat(_earth.default, " alt=\"\"  class=\"MainImg\"/>\n    ");
-  MainTextHolder1.innerHTML = "\n    <p>\n    Earth is the third planet from the Sun and the only astronomical object known to harbor life. About 29% of Earth's surface is land consisting of continents and islands. The remaining 71% is covered with water, mostly by oceans but also by lakes, rivers and other fresh water, which together constitute the hydrosphere. Much of Earth's polar regions are covered in ice. Earth's outer layer is divided into several rigid tectonic plates that migrate across the surface over many millions of years. Earth's interior remains active with a solid iron inner core, a liquid outer core that generates Earth's magnetic field, and a convecting mantle that drives plate tectonics.\n    </p>\n    ";
-  MainTextHolder2.innerHTML = "\n    <p>\nEarth formed over 4.5 billion years ago. Within the first billion years of Earth's history, life appeared in the oceans and began to affect Earth's atmosphere and surface, leading to the proliferation of anaerobic and, later, aerobic organisms. \n    </p>\n    ";
+  MainTextHolder1.innerHTML = "\n    <p>\n    Earth is the third planet from the Sun and the only astronomical object known to harbor life. About 29% of Earth's surface is land consisting of continents and islands. The remaining 71% is covered with water, mostly by oceans but also by lakes, rivers and other fresh water, which together constitute the hydrosphere. Much of Earth's polar regions are covered in ice. Earth's outer layer is divided into several rigid tectonic plates that migrate across the surface over many millions of years.\n    </p>\n    ";
+  MainTextHolder2.innerHTML = "\n    <p>\nEarth formed over 4.5 billion years ago. Within the first billion years of Earth's history, life appeared in the oceans and began to affect Earth's atmosphere and surface, leading to the proliferation of anaerobic and, later, aerobic organisms.  Earth's interior remains active with a solid iron inner core, a liquid outer core that generates Earth's magnetic field, and a convecting mantle that drives plate tectonics.\n    </p>\n    ";
   Name.scrollIntoView({
     behavior: "smooth"
   });
@@ -14254,11 +14280,10 @@ element[2].onclick = function () {
   element[5].style.transform = "scale(1)";
   element[6].style.transform = "scale(1)";
   element[7].style.transform = "scale(1)";
-  element[8].style.transform = "scale(1)";
   Name.innerHTML = "\n<h1 id=\"planetName\">Saturn</h1>\n";
-  MainImg.innerHTML = "\n<img src=".concat(_earth.default, " alt=\"\" class=\"MainImg\"/>\n");
-  MainTextHolder1.innerHTML = "\n<p>\nEarth is the third planet from the Sun and the only astronomical object known to harbor life. About 29% of Earth's surface is land consisting of continents and islands. The remaining 71% is covered with water, mostly by oceans but also by lakes, rivers and other fresh water, which together constitute the hydrosphere. Much of Earth's polar regions are covered in ice. Earth's outer layer is divided into several rigid tectonic plates that migrate across the surface over many millions of years. Earth's interior remains active with a solid iron inner core, a liquid outer core that generates Earth's magnetic field, and a convecting mantle that drives plate tectonics.\n</p>\n";
-  MainTextHolder2.innerHTML = "\n<p>\nEarth formed over 4.5 billion years ago. Within the first billion years of Earth's history, life appeared in the oceans and began to affect Earth's atmosphere and surface, leading to the proliferation of anaerobic and, later, aerobic organisms. \n</p>\n";
+  MainImg.innerHTML = "\n<img src=".concat(_saturn.default, " alt=\"\" class=\"MainImg\"/>\n");
+  MainTextHolder1.innerHTML = "\n<p>\nSaturn is the sixth planet from the Sun and the second-largest in the Solar System, after Jupiter. It is a gas giant with an average radius of about nine times that of Earth. It only has one-eighth the average density of Earth; however, with its larger volume, Saturn is over 95 times more massive. Saturn is named after the Roman god of wealth and agriculture; its astronomical symbol (\u2644) represents the god's sickle. The Romans named the seventh day of the week Saturday, S\u0101turni di\u0113s (\"Saturn's Day\") no later than the 2nd century for the planet Saturn.\n</p>\n";
+  MainTextHolder2.innerHTML = "\n<p>\nSaturn's interior is most likely composed of a core of iron\u2013nickel and rock (silicon and oxygen compounds). Its core is surrounded by a deep layer of metallic hydrogen, an intermediate layer of liquid hydrogen and liquid helium, and finally a gaseous outer layer. Saturn has a pale yellow hue due to ammonia crystals in its upper atmosphere. An electrical current within the metallic hydrogen layer is thought to give rise to Saturn's planetary magnetic field, which is weaker than the Earth's, but has a magnetic moment 580 times that of Earth due to Saturn's larger size. \n</p>\n";
   Name.scrollIntoView({
     behavior: "smooth"
   });
@@ -14274,11 +14299,10 @@ element[3].onclick = function () {
   element[5].style.transform = "scale(1)";
   element[6].style.transform = "scale(1)";
   element[7].style.transform = "scale(1)";
-  element[8].style.transform = "scale(1)";
   Name.innerHTML = "\n<h1 id=\"planetName\">Venus</h1>\n";
-  MainImg.innerHTML = "\n<img src=".concat(_earth.default, "  alt=\"\" class=\"MainImg\"/>\n");
-  MainTextHolder1.innerHTML = "\n<p>\nEarth is the third planet from the Sun and the only astronomical object known to harbor life. About 29% of Earth's surface is land consisting of continents and islands. The remaining 71% is covered with water, mostly by oceans but also by lakes, rivers and other fresh water, which together constitute the hydrosphere. Much of Earth's polar regions are covered in ice. Earth's outer layer is divided into several rigid tectonic plates that migrate across the surface over many millions of years. Earth's interior remains active with a solid iron inner core, a liquid outer core that generates Earth's magnetic field, and a convecting mantle that drives plate tectonics.\n</p>\n";
-  MainTextHolder2.innerHTML = "\n<p>\nEarth formed over 4.5 billion years ago. Within the first billion years of Earth's history, life appeared in the oceans and began to affect Earth's atmosphere and surface, leading to the proliferation of anaerobic and, later, aerobic organisms. \n</p>\n";
+  MainImg.innerHTML = "\n<img src=".concat(_venus.default, "  alt=\"\" class=\"MainImg\"/>\n");
+  MainTextHolder1.innerHTML = "\n<p>\nVenus is the second planet from the Sun. It is named after the Roman goddess of love and beauty. As the brightest natural object in Earth's night sky after the Moon, Venus can cast shadows and can be, on rare occasion, visible to the naked eye in broad daylight.Venus lies within Earth's orbit, and so never appears to venture far from the Sun, either setting in the west just after dusk or rising in the east a little while before dawn. Venus orbits the Sun every 224.7 Earth days. With a rotation period of 243 Earth days, it takes longer to rotate about its axis than any other planet in the Solar System by far, and does so in the opposite direction to all but Uranus (meaning the Sun rises in the west and sets in the east). \n</p>\n";
+  MainTextHolder2.innerHTML = "\n<p>\nVenus is a terrestrial planet and is sometimes called Earth's \"sister planet\" because of their similar size, mass, proximity to the Sun, and bulk composition. It is radically different from Earth in other respects. It has the densest atmosphere of the four terrestrial planets, consisting of more than 96% carbon dioxide. The atmospheric pressure at the planet's surface is about 92 times the sea level pressure of Earth, or roughly the pressure at 900 m (3,000 ft) underwater on Earth. Venus has, by far, the hottest surface of any planet in the Solar System, with a mean temperature of 737 K (464 \xB0C; 867 \xB0F), even though Mercury is closer to the Sun. Venus is shrouded by an opaque layer of highly reflective clouds of sulfuric acid, preventing its surface from being seen from space in visible light. \n</p>\n";
   Name.scrollIntoView({
     behavior: "smooth"
   });
@@ -14294,9 +14318,8 @@ element[4].onclick = function () {
   element[5].style.transform = "scale(1)";
   element[6].style.transform = "scale(1)";
   element[7].style.transform = "scale(1)";
-  element[8].style.transform = "scale(1)";
   Name.innerHTML = "\n<h1 id=\"planetName\">Uranus</h1>\n";
-  MainImg.innerHTML = "\n<img src=".concat(_earth.default, " alt=\"\" class=\"MainImg\"/>\n");
+  MainImg.innerHTML = "\n<img src=".concat(_uranus.default, " alt=\"\" class=\"MainImg\"/>\n");
   MainTextHolder1.innerHTML = "\n<p>\nEarth is the third planet from the Sun and the only astronomical object known to harbor life. About 29% of Earth's surface is land consisting of continents and islands. The remaining 71% is covered with water, mostly by oceans but also by lakes, rivers and other fresh water, which together constitute the hydrosphere. Much of Earth's polar regions are covered in ice. Earth's outer layer is divided into several rigid tectonic plates that migrate across the surface over many millions of years. Earth's interior remains active with a solid iron inner core, a liquid outer core that generates Earth's magnetic field, and a convecting mantle that drives plate tectonics.\n</p>\n";
   MainTextHolder2.innerHTML = "\n<p>\nEarth formed over 4.5 billion years ago. Within the first billion years of Earth's history, life appeared in the oceans and began to affect Earth's atmosphere and surface, leading to the proliferation of anaerobic and, later, aerobic organisms. \n</p>\n";
   Name.scrollIntoView({
@@ -14314,9 +14337,8 @@ element[5].onclick = function () {
   element[1].style.transform = "scale(1)";
   element[6].style.transform = "scale(1)";
   element[7].style.transform = "scale(1)";
-  element[8].style.transform = "scale(1)";
   Name.innerHTML = "\n<h1 id=\"planetName\">Mercury</h1>\n";
-  MainImg.innerHTML = "\n<img src=".concat(_earth.default, " alt=\"\" class=\"MainImg\"/>\n");
+  MainImg.innerHTML = "\n<img src=".concat(_mercury.default, " alt=\"\" class=\"MainImg\"/>\n");
   MainTextHolder1.innerHTML = "\n<p>\nEarth is the third planet from the Sun and the only astronomical object known to harbor life. About 29% of Earth's surface is land consisting of continents and islands. The remaining 71% is covered with water, mostly by oceans but also by lakes, rivers and other fresh water, which together constitute the hydrosphere. Much of Earth's polar regions are covered in ice. Earth's outer layer is divided into several rigid tectonic plates that migrate across the surface over many millions of years. Earth's interior remains active with a solid iron inner core, a liquid outer core that generates Earth's magnetic field, and a convecting mantle that drives plate tectonics.\n</p>\n";
   MainTextHolder2.innerHTML = "\n<p>\nEarth formed over 4.5 billion years ago. Within the first billion years of Earth's history, life appeared in the oceans and began to affect Earth's atmosphere and surface, leading to the proliferation of anaerobic and, later, aerobic organisms. \n</p>\n";
   Name.scrollIntoView({
@@ -14334,9 +14356,8 @@ element[6].onclick = function () {
   element[5].style.transform = "scale(1)";
   element[1].style.transform = "scale(1)";
   element[7].style.transform = "scale(1)";
-  element[8].style.transform = "scale(1)";
   Name.innerHTML = "\n<h1 id=\"planetName\">Jupiter</h1>\n";
-  MainImg.innerHTML = "\n<img src=".concat(_earth.default, " alt=\"\" class=\"MainImg\"/>\n");
+  MainImg.innerHTML = "\n<img src=".concat(_jupiter.default, " alt=\"\" class=\"MainImg\"/>\n");
   MainTextHolder1.innerHTML = "\n<p>\nEarth is the third planet from the Sun and the only astronomical object known to harbor life. About 29% of Earth's surface is land consisting of continents and islands. The remaining 71% is covered with water, mostly by oceans but also by lakes, rivers and other fresh water, which together constitute the hydrosphere. Much of Earth's polar regions are covered in ice. Earth's outer layer is divided into several rigid tectonic plates that migrate across the surface over many millions of years. Earth's interior remains active with a solid iron inner core, a liquid outer core that generates Earth's magnetic field, and a convecting mantle that drives plate tectonics.\n</p>\n";
   MainTextHolder2.innerHTML = "\n<p>\nEarth formed over 4.5 billion years ago. Within the first billion years of Earth's history, life appeared in the oceans and began to affect Earth's atmosphere and surface, leading to the proliferation of anaerobic and, later, aerobic organisms. \n</p>\n";
   Name.scrollIntoView({
@@ -14354,29 +14375,8 @@ element[7].onclick = function () {
   element[5].style.transform = "scale(1)";
   element[6].style.transform = "scale(1)";
   element[1].style.transform = "scale(1)";
-  element[8].style.transform = "scale(1)";
-  Name.innerHTML = "\n<h1 id=\"planetName\">Pluto</h1>\n";
-  MainImg.innerHTML = "\n<img src=".concat(_earth.default, " alt=\"\" class=\"MainImg\"/>\n");
-  MainTextHolder1.innerHTML = "\n<p>\nEarth is the third planet from the Sun and the only astronomical object known to harbor life. About 29% of Earth's surface is land consisting of continents and islands. The remaining 71% is covered with water, mostly by oceans but also by lakes, rivers and other fresh water, which together constitute the hydrosphere. Much of Earth's polar regions are covered in ice. Earth's outer layer is divided into several rigid tectonic plates that migrate across the surface over many millions of years. Earth's interior remains active with a solid iron inner core, a liquid outer core that generates Earth's magnetic field, and a convecting mantle that drives plate tectonics.\n</p>\n";
-  MainTextHolder2.innerHTML = "\n<p>\nEarth formed over 4.5 billion years ago. Within the first billion years of Earth's history, life appeared in the oceans and began to affect Earth's atmosphere and surface, leading to the proliferation of anaerobic and, later, aerobic organisms. \n</p>\n";
-  Name.scrollIntoView({
-    behavior: "smooth"
-  });
-  console.log(MainImg);
-};
-
-element[8].onclick = function () {
-  element[0].style.transform = "scale(1)";
-  element[8].style.transform = "scale(1.5)";
-  element[2].style.transform = "scale(1)";
-  element[3].style.transform = "scale(1)";
-  element[4].style.transform = "scale(1)";
-  element[5].style.transform = "scale(1)";
-  element[6].style.transform = "scale(1)";
-  element[1].style.transform = "scale(1)";
-  element[7].style.transform = "scale(1)";
   Name.innerHTML = "\n<h1 id=\"planetName\">Neptune</h1>\n";
-  MainImg.innerHTML = "\n<img src=".concat(_earth.default, " alt=\"\" class=\"MainImg\"/>\n");
+  MainImg.innerHTML = "\n<img src=".concat(_neptune.default, " alt=\"\" class=\"MainImg\"/>\n");
   MainTextHolder1.innerHTML = "\n<p>\nEarth is the third planet from the Sun and the only astronomical object known to harbor life. About 29% of Earth's surface is land consisting of continents and islands. The remaining 71% is covered with water, mostly by oceans but also by lakes, rivers and other fresh water, which together constitute the hydrosphere. Much of Earth's polar regions are covered in ice. Earth's outer layer is divided into several rigid tectonic plates that migrate across the surface over many millions of years. Earth's interior remains active with a solid iron inner core, a liquid outer core that generates Earth's magnetic field, and a convecting mantle that drives plate tectonics.\n</p>\n";
   MainTextHolder2.innerHTML = "\n<p>\nEarth formed over 4.5 billion years ago. Within the first billion years of Earth's history, life appeared in the oceans and began to affect Earth's atmosphere and surface, leading to the proliferation of anaerobic and, later, aerobic organisms. \n</p>\n";
   Name.scrollIntoView({
@@ -14384,7 +14384,7 @@ element[8].onclick = function () {
   });
   console.log(MainImg);
 };
-},{"../assets/images/earth.png":"../src/assets/images/earth.png","../assets/images/snow.png":"../src/assets/images/snow.png"}],"../src/js/customMouse.js":[function(require,module,exports) {
+},{"../assets/images/earth.png":"../src/assets/images/earth.png","../assets/images/mars.png":"../src/assets/images/mars.png","../assets/images/venus.png":"../src/assets/images/venus.png","../assets/images/uranus.png":"../src/assets/images/uranus.png","../assets/images/mercury.png":"../src/assets/images/mercury.png","../assets/images/saturn.png":"../src/assets/images/saturn.png","../assets/images/neptune.png":"../src/assets/images/neptune.png","../assets/images/jupiter.png":"../src/assets/images/jupiter.png","../assets/images/snow.png":"../src/assets/images/snow.png"}],"../src/js/customMouse.js":[function(require,module,exports) {
 var mouseCursor = document.querySelector('.cursor');
 window.addEventListener("mousemove", cursor);
 
@@ -14446,7 +14446,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "38803" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "40537" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
