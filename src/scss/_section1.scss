@@ -93,6 +93,12 @@ padding-left: 2vw;
   p{
     font-size: 1vw;
     text-align: right;
+    @media(min-width:426px) and (max-width:1024px){
+      font-size: 1.5vw;
+        }
+        @media(min-width:1025px) and (max-width:1441px){
+          font-size: 1.2vw;
+            }
   }
   @media(min-width:1px) and (max-width:425px){
     width: 100%;
@@ -101,7 +107,9 @@ padding-left: 2vw;
     p{
       font-size: 4.5vw;
       text-align: justify;
+      
     }
+    
    }
 }
 
@@ -115,6 +123,12 @@ padding-left: 2vw;
   p{
     font-size: 1vw;
     text-align: left;
+    @media(min-width:426px) and (max-width:1024px){
+      font-size: 1.5vw;
+        }
+        @media(min-width:1025px) and (max-width:1441px){
+          font-size: 1.2vw;
+            }
   }
   @media(min-width:1px) and (max-width:425px){
     width: 100%;
@@ -137,17 +151,16 @@ padding-left: 2vw;
   left: 0;
  
 }
-@media(min-width:426px) {
- .Mobile{
-   display: none;
- }
- }
+
 
  .Top{
   display: flex;
   justify-content: flex-end;
   padding: 0 41px;
   margin: 20px 0px;
+  @media(min-width:426px) {
+  display: none;
+    }
  }
  .Up{
   padding: 10px 25px;

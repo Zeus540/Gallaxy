@@ -71,7 +71,7 @@ const Section1 = () => {
             <div class="MainImgHolder" id="MainImgHolder" ></div>
 
             <div class="MainTextHolder2" id="MainTextHolder2"></div>
-            <div class=" Top">
+            <div class=" Top Mobile">
               <button class="Mobile Up" id='backtotop'>up</button>
             </div>
     
