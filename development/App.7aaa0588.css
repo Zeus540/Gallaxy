@@ -115,9 +115,9 @@
 @media (min-width: 1px) and (max-width: 425px) {
   .FlexContent {
     -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 
@@ -203,6 +203,29 @@
   top: -49px;
   height: 50px;
   left: 0;
+}
+
+@media (min-width: 426px) {
+  .Mobile {
+    display: none;
+  }
+}
+.Top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 0 41px;
+  margin: 20px 0px;
+}
+
+.Up {
+  padding: 10px 25px;
+  background: transparent;
+  color: #efefef;
+  border: 2px #183988 solid;
 }
 
 .Section2 {

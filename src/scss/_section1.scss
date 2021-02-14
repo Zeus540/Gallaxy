@@ -63,7 +63,7 @@ padding-left: 2vw;
   width: 100%;
   display: flex;
   @media(min-width:1px) and (max-width:425px){
-    flex-direction: column-reverse;
+    flex-direction: column;
    }
 
 }
@@ -137,3 +137,21 @@ padding-left: 2vw;
   left: 0;
  
 }
+@media(min-width:426px) {
+ .Mobile{
+   display: none;
+ }
+ }
+
+ .Top{
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 41px;
+  margin: 20px 0px;
+ }
+ .Up{
+  padding: 10px 25px;
+  background: transparent;
+  color: #efefef;
+  border: 2px #183988 solid;
+ }

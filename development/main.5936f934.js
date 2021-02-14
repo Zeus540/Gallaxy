@@ -14320,8 +14320,8 @@ element[4].onclick = function () {
   element[7].style.transform = "scale(1)";
   Name.innerHTML = "\n<h1 id=\"planetName\">Uranus</h1>\n";
   MainImg.innerHTML = "\n<img src=".concat(_uranus.default, " alt=\"\" class=\"MainImg\"/>\n");
-  MainTextHolder1.innerHTML = "\n<p>\nEarth is the third planet from the Sun and the only astronomical object known to harbor life. About 29% of Earth's surface is land consisting of continents and islands. The remaining 71% is covered with water, mostly by oceans but also by lakes, rivers and other fresh water, which together constitute the hydrosphere. Much of Earth's polar regions are covered in ice. Earth's outer layer is divided into several rigid tectonic plates that migrate across the surface over many millions of years. Earth's interior remains active with a solid iron inner core, a liquid outer core that generates Earth's magnetic field, and a convecting mantle that drives plate tectonics.\n</p>\n";
-  MainTextHolder2.innerHTML = "\n<p>\nEarth formed over 4.5 billion years ago. Within the first billion years of Earth's history, life appeared in the oceans and began to affect Earth's atmosphere and surface, leading to the proliferation of anaerobic and, later, aerobic organisms. \n</p>\n";
+  MainTextHolder1.innerHTML = "\n<p>\nUranus is the seventh planet from the Sun. Its name is a reference to the Greek god of the sky, Uranus, who, according to Greek mythology, was the grandfather of Zeus (Jupiter) and father of Cronus (Saturn). It has the third-largest planetary radius and fourth-largest planetary mass in the Solar System. Uranus is similar in composition to Neptune, and both have bulk chemical compositions which differ from that of the larger gas giants Jupiter and Saturn. For this reason, scientists often classify Uranus and Neptune as \"ice giants\" to distinguish them from the other gas giants. \n</p>\n";
+  MainTextHolder2.innerHTML = "\n<p>\nUranus's atmosphere is similar to Jupiter's and Saturn's in its primary composition of hydrogen and helium, but it contains more \"ices\" such as water, ammonia, and methane, along with traces of other hydrocarbons. It has the coldest planetary atmosphere in the Solar System, with a minimum temperature of 49 K (\u2212224 \xB0C; \u2212371 \xB0F), and has a complex, layered cloud structure with water thought to make up the lowest clouds and methane the uppermost layer of clouds. The interior of Uranus is mainly composed of ices and rock.\n</p>\n";
   Name.scrollIntoView({
     behavior: "smooth"
   });
@@ -14339,8 +14339,8 @@ element[5].onclick = function () {
   element[7].style.transform = "scale(1)";
   Name.innerHTML = "\n<h1 id=\"planetName\">Mercury</h1>\n";
   MainImg.innerHTML = "\n<img src=".concat(_mercury.default, " alt=\"\" class=\"MainImg\"/>\n");
-  MainTextHolder1.innerHTML = "\n<p>\nEarth is the third planet from the Sun and the only astronomical object known to harbor life. About 29% of Earth's surface is land consisting of continents and islands. The remaining 71% is covered with water, mostly by oceans but also by lakes, rivers and other fresh water, which together constitute the hydrosphere. Much of Earth's polar regions are covered in ice. Earth's outer layer is divided into several rigid tectonic plates that migrate across the surface over many millions of years. Earth's interior remains active with a solid iron inner core, a liquid outer core that generates Earth's magnetic field, and a convecting mantle that drives plate tectonics.\n</p>\n";
-  MainTextHolder2.innerHTML = "\n<p>\nEarth formed over 4.5 billion years ago. Within the first billion years of Earth's history, life appeared in the oceans and began to affect Earth's atmosphere and surface, leading to the proliferation of anaerobic and, later, aerobic organisms. \n</p>\n";
+  MainTextHolder1.innerHTML = "\n<p>\nMercury is the smallest and closest planet to the sun in the Solar System. Its orbit around the Sun takes 87.97 Earth days, the shortest of all the planets in the Solar System. It is named after the Greek god Hermes (\u0395\u03C1\u03BC\u03AE\u03C2), translated into Latin as Mercurius (Mercury), god of commerce, messenger of the gods, mediator between gods and mortals.\n\nLike Venus, Mercury orbits the Sun within Earth's orbit as an inferior planet, and its apparent distance from the Sun as viewed from Earth never exceeds 28\xB0. \n</p>\n";
+  MainTextHolder2.innerHTML = "\n<p>\nThis proximity to the Sun means the planet can only be seen near the western horizon after sunset or eastern horizon before sunrise, usually in twilight. At this time, it may appear as a bright star-like object, but is often far more difficult to observe than Venus. The planet telescopically displays the complete range of phases, similar to Venus and the Moon, as it moves in its inner orbit relative to Earth, which recurs over its synodic period of approximately 116 days.\n</p>\n";
   Name.scrollIntoView({
     behavior: "smooth"
   });
@@ -14358,8 +14358,8 @@ element[6].onclick = function () {
   element[7].style.transform = "scale(1)";
   Name.innerHTML = "\n<h1 id=\"planetName\">Jupiter</h1>\n";
   MainImg.innerHTML = "\n<img src=".concat(_jupiter.default, " alt=\"\" class=\"MainImg\"/>\n");
-  MainTextHolder1.innerHTML = "\n<p>\nEarth is the third planet from the Sun and the only astronomical object known to harbor life. About 29% of Earth's surface is land consisting of continents and islands. The remaining 71% is covered with water, mostly by oceans but also by lakes, rivers and other fresh water, which together constitute the hydrosphere. Much of Earth's polar regions are covered in ice. Earth's outer layer is divided into several rigid tectonic plates that migrate across the surface over many millions of years. Earth's interior remains active with a solid iron inner core, a liquid outer core that generates Earth's magnetic field, and a convecting mantle that drives plate tectonics.\n</p>\n";
-  MainTextHolder2.innerHTML = "\n<p>\nEarth formed over 4.5 billion years ago. Within the first billion years of Earth's history, life appeared in the oceans and began to affect Earth's atmosphere and surface, leading to the proliferation of anaerobic and, later, aerobic organisms. \n</p>\n";
+  MainTextHolder1.innerHTML = "\n<p>\nJupiter is the fifth planet from the Sun and the largest in the Solar System. It is a gas giant with a mass one-thousandth that of the Sun, but two-and-a-half times that of all the other planets in the Solar System combined. Jupiter is one of the brightest objects visible to the naked eye in the night sky and has been observed since pre-historic times. When viewed from Earth, Jupiter is on average the third-brightest natural object in the night sky after the Moon and Venus. It is named after the Roman god Jupiter.\n</p>\n";
+  MainTextHolder2.innerHTML = "\n<p>\nJupiter is primarily composed of hydrogen, but helium comprises one quarter of its mass and one tenth of its molecules. It may also have a rocky core of heavier elements, but like the other giant planets, Jupiter lacks a well-defined solid surface. Because of its rapid rotation, the planet's shape is that of an oblate spheroid (it has a slight but noticeable bulge around the equator). The outer atmosphere is visibly segregated into several bands at different latitudes,with turbulence and storms along their interacting boundaries.\n</p>\n";
   Name.scrollIntoView({
     behavior: "smooth"
   });
@@ -14377,8 +14377,8 @@ element[7].onclick = function () {
   element[1].style.transform = "scale(1)";
   Name.innerHTML = "\n<h1 id=\"planetName\">Neptune</h1>\n";
   MainImg.innerHTML = "\n<img src=".concat(_neptune.default, " alt=\"\" class=\"MainImg\"/>\n");
-  MainTextHolder1.innerHTML = "\n<p>\nEarth is the third planet from the Sun and the only astronomical object known to harbor life. About 29% of Earth's surface is land consisting of continents and islands. The remaining 71% is covered with water, mostly by oceans but also by lakes, rivers and other fresh water, which together constitute the hydrosphere. Much of Earth's polar regions are covered in ice. Earth's outer layer is divided into several rigid tectonic plates that migrate across the surface over many millions of years. Earth's interior remains active with a solid iron inner core, a liquid outer core that generates Earth's magnetic field, and a convecting mantle that drives plate tectonics.\n</p>\n";
-  MainTextHolder2.innerHTML = "\n<p>\nEarth formed over 4.5 billion years ago. Within the first billion years of Earth's history, life appeared in the oceans and began to affect Earth's atmosphere and surface, leading to the proliferation of anaerobic and, later, aerobic organisms. \n</p>\n";
+  MainTextHolder1.innerHTML = "\n<p>\nNeptune is the eighth and farthest-known Solar planet from the Sun. In the Solar System, it is the fourth-largest planet by diameter, the third-most-massive planet, and the densest giant planet. It is 17 times the mass of Earth, slightly more massive than its near-twin Uranus. Neptune is denser and physically smaller than Uranus because its greater mass causes more gravitational compression of its atmosphere. The planet orbits the Sun once every 164.8 years at an average distance of 30.1 AU (4.5 billion km; 2.8 billion mi). It is named after the Roman god of the sea and has the astronomical symbol \u2646, a stylised version of the god Neptune's trident.\n</p>\n";
+  MainTextHolder2.innerHTML = "\n<p>\nNeptune is not visible to the unaided eye and is the only planet in the Solar System found by mathematical prediction rather than by empirical observation. Unexpected changes in the orbit of Uranus led Alexis Bouvard to deduce that its orbit was subject to gravitational perturbation by an unknown planet. After Bouvard's death, the position of Neptune was predicted from his observations, independently, by John Couch Adams and Urbain Le Verrier. Neptune was subsequently observed with a telescope on 23 September 1846 by Johann Galle within a degree of the position predicted by Le Verrier.\n</p>\n";
   Name.scrollIntoView({
     behavior: "smooth"
   });
@@ -14395,10 +14395,18 @@ function cursor(e) {
 },{}],"../src/js/scollToViiew.js":[function(require,module,exports) {
 var element = document.getElementById('down');
 var Section2 = document.getElementById('Sec');
+var Up = document.getElementById('backtotop');
 var Info = document.getElementById('MainImgHolder');
 var plantpicker = document.getElementsByClassName('planetholder');
 
 element.onclick = function () {
+  Section2.scrollIntoView({
+    behavior: "smooth",
+    inline: "nearest"
+  });
+};
+
+Up.onclick = function () {
   Section2.scrollIntoView({
     behavior: "smooth",
     inline: "nearest"
@@ -14446,7 +14454,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "40537" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "43129" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

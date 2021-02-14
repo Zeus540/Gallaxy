@@ -71,10 +71,12 @@ const Section1 = () => {
             <div class="MainImgHolder" id="MainImgHolder" ></div>
 
             <div class="MainTextHolder2" id="MainTextHolder2"></div>
-
-        </div>
-
+            <div class=" Top">
+              <button class="Mobile Up" id='backtotop'>up</button>
+            </div>
     
+        </div>
+      
   </div>
   `
 
